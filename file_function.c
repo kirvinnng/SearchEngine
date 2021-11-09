@@ -61,6 +61,7 @@ void readFile(Get info, char *fileName, Tree **tree, int fileID) {
 
                 //* if the next character is not charAlpha or Numeric
                 if (i == 0) {
+
                     continue;
                 }
                 strncpy(word, auxWord, i + 1);
@@ -74,28 +75,26 @@ void readFile(Get info, char *fileName, Tree **tree, int fileID) {
             } else {
                 character = tolower(character);
                 auxWord[i] = character;
-                position++;
                 i++;
             }
+            position++;
         }
         fclose(buff);
+        free(word);
+        free(auxWord);
     }
 }
 
 void saveInfoIntoTree(Tree **tree, Get info) {
 
-    if (insertTree(tree, info) != -1) {
-        insertNodeSorted(&(*tree)->list, info.idDOC, info.position);
-    } else {
-        printf(" ^ se repite \n");
-    }
+    int valid = insertTree(tree, info);
 }
 
 void fillStructField(Get *info, char *word, int position, int fileID) {
 
     position -= strlen(word); //* start of the word
 
-    printf(" WORD : %s \n", word);
+    // printf(" WORD : %s \n", word);
 
     strcpy((*info).word, word);
     (*info).position = position;

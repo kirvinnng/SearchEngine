@@ -22,7 +22,6 @@ Tree *createTreeNode(Get info) {
     create->right = NULL;
     create->left = NULL;
     create->list = NULL;
-
     strcpy(create->word, info.word);
 
     return create;
@@ -31,13 +30,18 @@ Tree *createTreeNode(Get info) {
 int insertTree(Tree **dictionary, Get info) {
     if (*dictionary == NULL) {
         *dictionary = createTreeNode(info);
-    } else if (strcmpi(info.word, (*dictionary)->word) > 0) {
-        insertTree(&(*dictionary)->right, info);
-    } else if (strcmpi(info.word, (*dictionary)->word) < 0) {
-        insertTree(&(*dictionary)->left, info);
-    } else {
         insertNodeSorted(&(*dictionary)->list, info.idDOC, info.position);
-        return -1;
+
+    } else {
+        if (strcmpi(info.word, (*dictionary)->word) == 0) {
+            insertNodeSorted(&(*dictionary)->list, info.idDOC, info.position);
+            return -1;
+        }
+        if (strcmpi(info.word, (*dictionary)->word) > 0) {
+            insertTree(&(*dictionary)->right, info);
+        } else {
+            insertTree(&(*dictionary)->left, info);
+        }
     }
 }
 

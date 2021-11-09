@@ -21,8 +21,9 @@ enum Colors {
     WHITE
 };
 
+void viewOnlyWords(Tree *tree);
 void showTree(Tree *tree);
-void showNodeList(Node *list, char *word);
+void showNodeList(Node *list);
 
 void verifyError(void *arg, const int line);
 void gotoxy(int x, int y);

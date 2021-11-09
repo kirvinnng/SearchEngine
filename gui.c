@@ -2,21 +2,36 @@
 #include "algorithm.h"
 #include "main.h"
 
+void viewOnlyWords(Tree *tree) {
+
+    if (tree) {
+        printf(" | Word : '%s'   \n", tree->word);
+
+        viewOnlyWords(tree->left);
+        viewOnlyWords(tree->right);
+    }
+}
+
 void showTree(Tree *tree) {
     if (tree) {
-        showNodeList(tree->list, tree->word);
+        printf(" | Word     : '%s'            \n", tree->word);
+        showNodeList(tree->list);
         showTree(tree->left);
         showTree(tree->right);
     }
 }
 
-void showNodeList(Node *list, char *word) {
+void showNodeList(Node *list) {
     while (list) {
-        printf("Word     : %s\n", word);
-        printf("Document : %d\n", list->idDOC);
-        printf("Position : %d\n", list->position);
+        printf(" .-------------------------\n");
+        // printf(" | Word     : '%s'            \n", word);
+        printf(" | Document :  %d            \n", list->idDOC);
+        printf(" | Position :  %d            \n", list->position);
+        printf(" .-------------------------\n\n");
+
         list = list->next;
     }
+    printf(" ===========================================\n\n");
 }
 
 void verifyError(void *arg, const int line) {
