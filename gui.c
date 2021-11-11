@@ -43,6 +43,49 @@ void verifyError(void *arg, const int line) {
     }
 }
 
+int selectMenuOption() {
+    int i = 0;
+    bool enter = false;
+    gotoxy(6, 3);
+    setColor(WHITE);
+    printf(">");
+
+    do {
+        enter = false;
+        menu();
+        getch();
+        if (GetAsyncKeyState(0x26) & 0x8000) { //  Arriba
+            i = i > 0 ? i -= 1 : i;
+        } else if (GetAsyncKeyState(0x28) & 0x8000) { // Abajo
+            i = i < 2 ? i += 1 : i;
+        } else if (GetAsyncKeyState(0x0D) & 0x8000) { // Enter
+            enter = true;
+        } else {
+            i = i;
+        }
+        // fflush(stdin);
+
+        Sleep(80);
+        system("cls");
+        gotoxy(6, 3 + (i * 2));
+        setColor(WHITE);
+        printf(">");
+        gotoxy(20, 2);
+
+    } while (!enter);
+    return i;
+}
+
+void menu() {
+    setColor(LIGHTCYAN);
+    gotoxy(8, 3);
+    printf("Mati \n");
+    gotoxy(8, 5);
+    printf("Kevin \n");
+    gotoxy(8, 7);
+    printf("EXIT");
+}
+
 void gotoxy(int x, int y) {
 
     HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -61,5 +104,4 @@ void setColor(int value) {
         color = (csbi.wAttributes & 0xF0) + (value & 0x0F);
         SetConsoleTextAttribute(standarOutput, color);
     }
-    return;
 }

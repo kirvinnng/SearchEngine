@@ -3,13 +3,12 @@
 #include "gui.h"
 #include "main.h"
 
+//* Read all the files in the database
 void readAllFiles(Tree **tree) {
 
     DIR *d;
-    char file[50];
     struct dirent *dir;
 
-    Get info;
     int id = 0;
     d = opendir("database");
     if (d) {
@@ -19,7 +18,7 @@ void readAllFiles(Tree **tree) {
 
                 id++;
 
-                readFile(info, dir->d_name, tree, id);
+                readFile(dir->d_name, tree, id);
             }
         }
 
@@ -40,7 +39,8 @@ void addFolder(char *file) {
     strcpy(file, directory);
 }
 
-void readFile(Get info, char *fileName, Tree **tree, int fileID) {
+//* Open a file and pass the data to the tree
+void readFile(char *fileName, Tree **tree, int fileID) {
 
     addFolder(fileName);
 
@@ -51,12 +51,14 @@ void readFile(Get info, char *fileName, Tree **tree, int fileID) {
     char *word = (char *)calloc(sizeof(char), 20);
     verifyError(word, __LINE__);
 
+    Get info = {0};
     char character;
     int position = 0;
     int i = 0;
 
     if (buff != NULL) {
         while (fread(&character, sizeof(char), 1, buff) > 0) {
+
             if (!verifyCharAlpha(character)) {
 
                 //* if the next character is not charAlpha or Numeric
@@ -67,7 +69,7 @@ void readFile(Get info, char *fileName, Tree **tree, int fileID) {
                 strncpy(word, auxWord, i + 1);
 
                 word[i] = '\0';
-                fillStructField(&info, word, position, fileID);
+                info = fillStructField(word, position, fileID);
 
                 saveInfoIntoTree(tree, info);
 
@@ -82,27 +84,90 @@ void readFile(Get info, char *fileName, Tree **tree, int fileID) {
         fclose(buff);
         free(word);
         free(auxWord);
+
+    } else {
+        printf(" ERROR OPENING '%s' \n ( FILE : %s - LINE : %d )\n", fileName, __FILE__, __LINE__);
     }
 }
 
+//* Insert the information in the tree & list
 void saveInfoIntoTree(Tree **tree, Get info) {
 
     int valid = insertTree(tree, info);
 }
 
-void fillStructField(Get *info, char *word, int position, int fileID) {
+Get fillStructField(char *word, int position, int fileID) {
 
+    Get info;
     position -= strlen(word); //* start of the word
 
     // printf(" WORD : %s \n", word);
 
-    strcpy((*info).word, word);
-    (*info).position = position;
-    (*info).idDOC = fileID;
+    strcpy(info.word, word);
+    info.position = position;
+    info.idDOC = fileID;
+
+    return info;
 }
 
 //* Verify if it's a letter or a number
 int verifyCharAlpha(char caracter) {
 
     return IsCharAlpha(caracter) || IsCharAlphaNumeric(caracter);
+}
+
+FILE *openFile() {
+
+    FILE *buff = fopen(DICTIONARY, "wb");
+
+    if (buff) {
+
+        return buff;
+    }
+    printf(" ERROR OPENING '%s' \n ( FILE : %s - LINE : %d )\n", DICTIONARY, __FILE__, __LINE__);
+}
+
+void closeFile(FILE *buff) {
+    if (buff) {
+        fclose(buff);
+    }
+}
+
+//* Creates the file where the words are stored.
+void createDictionary(Tree *tree, FILE *buff) {
+
+    if (tree) {
+
+        listToFile(tree->list, tree->word, buff);
+        createDictionary(tree->right, buff);
+        createDictionary(tree->left, buff);
+    }
+}
+
+void listToFile(Node *list, char *word, FILE *buff) {
+
+    Get info = {0};
+    while (list) {
+
+        info = fillStructField(word, list->position, list->idDOC);
+
+        fwrite(&info, sizeof(Get), 1, buff);
+
+        list = list->next;
+    }
+}
+
+void readDictionary(Tree **tree) {
+    FILE *buffer = fopen(DICTIONARY, "rb");
+
+    Get info;
+    if (buffer) {
+        while (fread(&info, sizeof(Get), 1, buffer) > 0) {
+
+            saveInfoIntoTree(tree, info);
+        }
+        fclose(buffer);
+    } else {
+        printf(" ERROR OPENING '%s' \n ( FILE : %s - LINE : %d )\n", DICTIONARY, __FILE__, __LINE__);
+    }
 }

@@ -1,7 +1,9 @@
 #pragma once
 
-#include "main.h"
+#include <conio.h>
+#include <stdbool.h>
 
+#include "main.h"
 enum Colors {
     BLACK,
     BLUE,
@@ -24,6 +26,9 @@ enum Colors {
 void viewOnlyWords(Tree *tree);
 void showTree(Tree *tree);
 void showNodeList(Node *list);
+
+void menu();
+int selectMenuOption();
 
 void verifyError(void *arg, const int line);
 void gotoxy(int x, int y);

@@ -7,9 +7,20 @@ int main() {
 
     Tree *tree = NULL;
 
-    readAllFiles(&tree);
+    //* these functions are to read the files and pass them to the tree,
+    //* then create the dictionary.
+    // selectMenuOption();
+    // readAllFiles(&tree);
+    // showTree(tree);
+    // FILE *buff = openFile();
+    // createDictionary(tree, buff);
+    // closeFile(buff);
+    //*----------------------------------
 
-    showTree(tree);
+    Tree *treeTwo = NULL;
+
+    readDictionary(&treeTwo);
+    // showTree(treeTwo);
 
     return 0;
 }

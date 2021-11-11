@@ -15,7 +15,7 @@ Node *createNodeList(int idDOC, int position) {
     return create;
 }
 
-Tree *createTreeNode(Get info) {
+Tree *createNodeTree(Get info) {
 
     Tree *create = (Tree *)malloc(sizeof(Tree));
     verifyError(create, __LINE__);
@@ -29,7 +29,7 @@ Tree *createTreeNode(Get info) {
 
 int insertTree(Tree **dictionary, Get info) {
     if (*dictionary == NULL) {
-        *dictionary = createTreeNode(info);
+        *dictionary = createNodeTree(info);
         insertNodeSorted(&(*dictionary)->list, info.idDOC, info.position);
 
     } else {
