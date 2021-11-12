@@ -27,16 +27,20 @@ Tree *createNodeTree(Get info) {
     return create;
 }
 
+//* Insert a new tree & list node
 int insertTree(Tree **dictionary, Get info) {
     if (*dictionary == NULL) {
         *dictionary = createNodeTree(info);
         insertNodeSorted(&(*dictionary)->list, info.idDOC, info.position);
+        (*dictionary)->length = countListNode((*dictionary)->list);
 
     } else {
         if (strcmpi(info.word, (*dictionary)->word) == 0) {
             insertNodeSorted(&(*dictionary)->list, info.idDOC, info.position);
+            (*dictionary)->length = countListNode((*dictionary)->list);
             return -1;
         }
+
         if (strcmpi(info.word, (*dictionary)->word) > 0) {
             insertTree(&(*dictionary)->right, info);
         } else {
@@ -45,6 +49,7 @@ int insertTree(Tree **dictionary, Get info) {
     }
 }
 
+//* Insert a one node into linked list
 void insertNodeSorted(Node **list, int idDoc, int position) {
 
     Node *newNode = createNodeList(idDoc, position);
@@ -67,4 +72,25 @@ void insertNodeSorted(Node **list, int idDoc, int position) {
             newNode->next = next;
         }
     }
+}
+//* Count the number of nodes in the tree
+void countTreeNode(Tree *tree, int *acum) {
+
+    if (tree) {
+        countTreeNode(tree->left, acum);
+        countTreeNode(tree->right, acum);
+        (*acum)++;
+    }
+}
+
+//* Count the number of nodes in the list
+int countListNode(Node *list) {
+
+    int acum = 0;
+
+    while (list) {
+        acum++;
+        list = list->next;
+    }
+    return acum;
 }
