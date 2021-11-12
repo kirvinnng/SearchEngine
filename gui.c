@@ -15,6 +15,7 @@ void viewOnlyWords(Tree *tree) {
 void showTree(Tree *tree) {
     if (tree) {
         printf(" | Word     : '%s'            \n", tree->word);
+        printf(" | Nodes    : %d              \n", tree->length);
         showNodeList(tree->list);
         showTree(tree->left);
         showTree(tree->right);
@@ -24,7 +25,6 @@ void showTree(Tree *tree) {
 void showNodeList(Node *list) {
     while (list) {
         printf(" .-------------------------\n");
-        // printf(" | Word     : '%s'            \n", word);
         printf(" | Document :  %d            \n", list->idDOC);
         printf(" | Position :  %d            \n", list->position);
         printf(" .-------------------------\n\n");
@@ -63,7 +63,6 @@ int selectMenuOption() {
         } else {
             i = i;
         }
-        // fflush(stdin);
 
         Sleep(80);
         system("cls");
@@ -79,7 +78,7 @@ int selectMenuOption() {
 void menu() {
     setColor(LIGHTCYAN);
     gotoxy(8, 3);
-    printf("Mati \n");
+    printf("OPEN HTML \n");
     gotoxy(8, 5);
     printf("Kevin \n");
     gotoxy(8, 7);

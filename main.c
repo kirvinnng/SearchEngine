@@ -1,26 +1,28 @@
 #include "main.h"
 #include "algorithm.h"
-#include "file_function.h"
+#include "create_file.h"
 #include "gui.h"
+#include "read_file.h"
 
-int main() {
+int main(int argc, char **argv) {
 
     Tree *tree = NULL;
+    // selectMenuOption();
 
     //* these functions are to read the files and pass them to the tree,
     //* then create the dictionary.
-    // selectMenuOption();
-    // readAllFiles(&tree);
+    readAllFiles(&tree);
     // showTree(tree);
-    // FILE *buff = openFile();
-    // createDictionary(tree, buff);
-    // closeFile(buff);
+    // createTXT(tree);
+    // createHTML(tree);
+    // createBinary(tree);
+    // createJSON(tree);
     //*----------------------------------
+    system("pause");
+    // system("cd document && dictionary.html");
 
-    Tree *treeTwo = NULL;
-
-    readDictionary(&treeTwo);
-    // showTree(treeTwo);
+    readDictionary(&tree);
+    showTree(tree);
 
     return 0;
 }
