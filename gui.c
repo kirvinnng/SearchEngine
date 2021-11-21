@@ -85,6 +85,21 @@ void menu() {
     printf("EXIT");
 }
 
+void toLowerCase(char *str) {
+
+    int valueA = 65;
+    int valueZ = 90;
+
+    while (*str != '\0') {
+
+        if (*str >= valueA && *str <= valueZ) {
+
+            *str = *str + 32;
+        }
+        str++;
+    }
+}
+
 void gotoxy(int x, int y) {
 
     HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);

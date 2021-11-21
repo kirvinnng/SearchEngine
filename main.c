@@ -13,15 +13,15 @@ int main(int argc, char **argv) {
     //* then create the dictionary.
     readAllFiles(&tree);
     // showTree(tree);
-    // createTXT(tree);
+    createTXT(tree);
     // createHTML(tree);
     // createBinary(tree);
     // createJSON(tree);
     //*----------------------------------
-    system("pause");
+
     // system("cd document && dictionary.html");
 
-    readDictionary(&tree);
+    // readDictionary(&tree);
     showTree(tree);
 
     return 0;

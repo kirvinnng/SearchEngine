@@ -23,7 +23,7 @@ void createTXT(Tree *tree) {
 
 void createBinary(Tree *tree) {
 
-    FILE *buff = openFile(".bin", "ab");
+    FILE *buff = openFile(".bin", "wb");
     createDictionary(tree, buff, ".bin");
     closeFile(buff);
 }

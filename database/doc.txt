@@ -1,9 +1,6 @@
 Go has its own elegance and programming idioms that make the language productive and fun to code in. The language designers set out to create a language that
 would let them be productive without losing access to the lower-level programming
+
+
 constructs they needed. This balance is achieved through a minimized set of keywords, built-in functions, and syntax. Go also provides a comprehensive standard
-library. The standard library provides all the core packages programmers need to
-build real-world web- and network-based programs. 
-To see this in action, we will review a complete Go program that implements functionality 
-that can be found in many Go programs being developed today. The program pulls different data feeds from the 
-web and compares the content against a
-search term. The content that matches is then displayed in the terminal window
+

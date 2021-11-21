@@ -1,13 +1,7 @@
               go
 
  Document : 1     Position : 0 
- Document : 1     Position : 638 
- Document : 1     Position : 571 
  Document : 1     Position : 353 
- Document : 3     Position : 638 
- Document : 3     Position : 571 
- Document : 3     Position : 353 
- Document : 3     Position : 0 
  Document : 4     Position : 0 
 
  --------------------------------- 
@@ -15,21 +9,18 @@
               has
 
  Document : 1     Position : 3 
- Document : 3     Position : 3 
 
  --------------------------------- 
 
               its
 
  Document : 1     Position : 7 
- Document : 3     Position : 7 
 
  --------------------------------- 
 
               own
 
  Document : 1     Position : 11 
- Document : 3     Position : 11 
 
  --------------------------------- 
 
@@ -37,161 +28,78 @@
 
  Document : 1     Position : 28 
  Document : 1     Position : 227 
- Document : 3     Position : 227 
- Document : 3     Position : 28 
 
  --------------------------------- 
 
              that
 
  Document : 1     Position : 47 
- Document : 1     Position : 783 
- Document : 1     Position : 612 
- Document : 1     Position : 582 
  Document : 1     Position : 152 
- Document : 3     Position : 783 
- Document : 3     Position : 612 
- Document : 3     Position : 582 
- Document : 3     Position : 152 
- Document : 3     Position : 47 
 
  --------------------------------- 
 
               the
 
  Document : 1     Position : 57 
- Document : 1     Position : 817 
- Document : 1     Position : 771 
- Document : 1     Position : 737 
- Document : 1     Position : 716 
- Document : 1     Position : 672 
- Document : 1     Position : 437 
- Document : 1     Position : 403 
  Document : 1     Position : 211 
  Document : 1     Position : 100 
- Document : 3     Position : 817 
- Document : 3     Position : 771 
- Document : 3     Position : 737 
- Document : 3     Position : 716 
- Document : 3     Position : 672 
- Document : 3     Position : 437 
- Document : 3     Position : 403 
- Document : 3     Position : 211 
- Document : 3     Position : 100 
- Document : 3     Position : 57 
 
  --------------------------------- 
 
               to
 
  Document : 1     Position : 89 
- Document : 1     Position : 523 
- Document : 1     Position : 472 
  Document : 1     Position : 208 
  Document : 1     Position : 131 
- Document : 3     Position : 523 
- Document : 3     Position : 472 
- Document : 3     Position : 208 
- Document : 3     Position : 131 
- Document : 3     Position : 89 
 
  --------------------------------- 
 
              would
 
  Document : 1     Position : 157 
- Document : 3     Position : 157 
 
  --------------------------------- 
 
             without
 
  Document : 1     Position : 186 
- Document : 3     Position : 186 
 
  --------------------------------- 
 
              world
 
- Document : 1     Position : 486 
  Document : 2     Position : 14 
- Document : 3     Position : 486 
  Document : 4     Position : 3 
-
- --------------------------------- 
-
-              web
-
- Document : 1     Position : 492 
- Document : 1     Position : 720 
- Document : 3     Position : 720 
- Document : 3     Position : 492 
-
- --------------------------------- 
-
-             will
-
- Document : 1     Position : 548 
- Document : 3     Position : 548 
-
- --------------------------------- 
-
-            window
-
- Document : 1     Position : 830 
- Document : 3     Position : 830 
-
- --------------------------------- 
-
-              we
-
- Document : 1     Position : 545 
- Document : 3     Position : 545 
 
  --------------------------------- 
 
              today
 
- Document : 1     Position : 666 
  Document : 2     Position : 20 
- Document : 3     Position : 666 
 
  --------------------------------- 
 
              them
 
  Document : 1     Position : 167 
- Document : 3     Position : 167 
 
  --------------------------------- 
 
              they
 
  Document : 1     Position : 250 
- Document : 3     Position : 250 
 
  --------------------------------- 
 
              this
 
  Document : 1     Position : 262 
- Document : 1     Position : 530 
- Document : 3     Position : 530 
- Document : 3     Position : 262 
 
  --------------------------------- 
 
             through
 
  Document : 1     Position : 287 
- Document : 3     Position : 287 
-
- --------------------------------- 
-
-             then
-
- Document : 1     Position : 799 
- Document : 3     Position : 799 
 
  --------------------------------- 
 
@@ -199,91 +107,24 @@
 
  Document : 1     Position : 123 
  Document : 1     Position : 307 
- Document : 3     Position : 307 
- Document : 3     Position : 123 
 
  --------------------------------- 
 
             syntax
 
  Document : 1     Position : 346 
- Document : 3     Position : 346 
-
- --------------------------------- 
-
-             term
-
- Document : 1     Position : 766 
- Document : 3     Position : 766 
-
- --------------------------------- 
-
-           terminal
-
- Document : 1     Position : 821 
- Document : 3     Position : 821 
 
  --------------------------------- 
 
            standard
 
  Document : 1     Position : 386 
- Document : 1     Position : 407 
- Document : 3     Position : 407 
- Document : 3     Position : 386 
 
  --------------------------------- 
 
            provides
 
  Document : 1     Position : 361 
- Document : 1     Position : 424 
- Document : 3     Position : 424 
- Document : 3     Position : 361 
-
- --------------------------------- 
-
-             real
-
- Document : 1     Position : 481 
- Document : 3     Position : 481 
-
- --------------------------------- 
-
-              see
-
- Document : 1     Position : 526 
- Document : 3     Position : 526 
-
- --------------------------------- 
-
-            review
-
- Document : 1     Position : 553 
- Document : 3     Position : 553 
-
- --------------------------------- 
-
-            search
-
- Document : 1     Position : 759 
- Document : 3     Position : 759 
-
- --------------------------------- 
-
-             pulls
-
- Document : 1     Position : 684 
- Document : 3     Position : 684 
-
- --------------------------------- 
-
-           programs
-
- Document : 1     Position : 514 
- Document : 1     Position : 641 
- Document : 3     Position : 641 
- Document : 3     Position : 514 
 
  --------------------------------- 
 
@@ -291,94 +132,36 @@
 
  Document : 1     Position : 70 
  Document : 1     Position : 175 
- Document : 3     Position : 175 
- Document : 3     Position : 70 
-
- --------------------------------- 
-
-          programmers
-
- Document : 1     Position : 455 
- Document : 3     Position : 455 
-
- --------------------------------- 
-
-            program
-
- Document : 1     Position : 574 
- Document : 1     Position : 676 
- Document : 3     Position : 676 
- Document : 3     Position : 574 
-
- --------------------------------- 
-
-           packages
-
- Document : 1     Position : 446 
- Document : 3     Position : 446 
 
  --------------------------------- 
 
              make
 
  Document : 1     Position : 52 
- Document : 3     Position : 52 
 
  --------------------------------- 
 
               out
 
  Document : 1     Position : 127 
- Document : 3     Position : 127 
 
  --------------------------------- 
 
             needed
 
  Document : 1     Position : 255 
- Document : 3     Position : 255 
 
  --------------------------------- 
 
               of
 
  Document : 1     Position : 311 
- Document : 3     Position : 311 
-
- --------------------------------- 
-
-            network
-
- Document : 1     Position : 500 
- Document : 3     Position : 500 
 
  --------------------------------- 
 
            minimized
 
  Document : 1     Position : 297 
- Document : 3     Position : 297 
-
- --------------------------------- 
-
-             need
-
- Document : 1     Position : 467 
- Document : 3     Position : 467 
-
- --------------------------------- 
-
-             many
-
- Document : 1     Position : 633 
- Document : 3     Position : 633 
-
- --------------------------------- 
-
-            matches
-
- Document : 1     Position : 788 
- Document : 3     Position : 788 
 
  --------------------------------- 
 
@@ -393,356 +176,155 @@
  Document : 1     Position : 61 
  Document : 1     Position : 143 
  Document : 1     Position : 104 
- Document : 3     Position : 143 
- Document : 3     Position : 104 
- Document : 3     Position : 61 
 
  --------------------------------- 
 
               let
 
  Document : 1     Position : 163 
- Document : 3     Position : 163 
 
  --------------------------------- 
 
             losing
 
  Document : 1     Position : 194 
- Document : 3     Position : 194 
 
  --------------------------------- 
 
              lower
 
  Document : 1     Position : 215 
- Document : 3     Position : 215 
 
  --------------------------------- 
 
              level
 
  Document : 1     Position : 221 
- Document : 3     Position : 221 
-
- --------------------------------- 
-
-            library
-
- Document : 1     Position : 395 
- Document : 1     Position : 416 
- Document : 3     Position : 416 
- Document : 3     Position : 395 
 
  --------------------------------- 
 
            keywords
 
  Document : 1     Position : 314 
- Document : 3     Position : 314 
 
  --------------------------------- 
 
             idioms
 
  Document : 1     Position : 40 
- Document : 3     Position : 40 
 
  --------------------------------- 
 
               in
 
  Document : 1     Position : 97 
- Document : 1     Position : 814 
- Document : 1     Position : 630 
- Document : 1     Position : 535 
  Document : 1     Position : 329 
- Document : 3     Position : 814 
- Document : 3     Position : 630 
- Document : 3     Position : 535 
- Document : 3     Position : 329 
- Document : 3     Position : 97 
 
  --------------------------------- 
 
               is
 
  Document : 1     Position : 275 
- Document : 1     Position : 796 
- Document : 3     Position : 796 
- Document : 3     Position : 275 
-
- --------------------------------- 
-
-          implements
-
- Document : 1     Position : 587 
- Document : 3     Position : 587 
 
  --------------------------------- 
 
            elegance
 
  Document : 1     Position : 15 
- Document : 3     Position : 15 
 
  --------------------------------- 
 
               fun
 
  Document : 1     Position : 85 
- Document : 3     Position : 85 
 
  --------------------------------- 
 
            functions
 
  Document : 1     Position : 332 
- Document : 3     Position : 332 
-
- --------------------------------- 
-
-         functionality
-
- Document : 1     Position : 598 
- Document : 3     Position : 598 
-
- --------------------------------- 
-
-             found
-
- Document : 1     Position : 624 
- Document : 3     Position : 624 
-
- --------------------------------- 
-
-             from
-
- Document : 1     Position : 711 
- Document : 3     Position : 711 
-
- --------------------------------- 
-
-             feeds
-
- Document : 1     Position : 705 
- Document : 3     Position : 705 
 
  --------------------------------- 
 
               and
 
  Document : 1     Position : 24 
- Document : 1     Position : 724 
- Document : 1     Position : 496 
  Document : 1     Position : 342 
  Document : 1     Position : 81 
- Document : 3     Position : 724 
- Document : 3     Position : 496 
- Document : 3     Position : 342 
- Document : 3     Position : 81 
- Document : 3     Position : 24 
 
  --------------------------------- 
 
              code
 
  Document : 1     Position : 92 
- Document : 3     Position : 92 
 
  --------------------------------- 
 
            designers
 
  Document : 1     Position : 113 
- Document : 3     Position : 113 
-
- --------------------------------- 
-
-           developed
-
- Document : 1     Position : 656 
- Document : 3     Position : 656 
-
- --------------------------------- 
-
-           different
-
- Document : 1     Position : 690 
- Document : 3     Position : 690 
-
- --------------------------------- 
-
-           displayed
-
- Document : 1     Position : 804 
- Document : 3     Position : 804 
 
  --------------------------------- 
 
             create
 
  Document : 1     Position : 134 
- Document : 3     Position : 134 
-
- --------------------------------- 
-
-             data
-
- Document : 1     Position : 700 
- Document : 3     Position : 700 
 
  --------------------------------- 
 
           constructs
 
  Document : 1     Position : 239 
- Document : 3     Position : 239 
-
- --------------------------------- 
-
-             core
-
- Document : 1     Position : 441 
- Document : 3     Position : 441 
-
- --------------------------------- 
-
-            content
-
- Document : 1     Position : 741 
- Document : 1     Position : 775 
- Document : 3     Position : 775 
- Document : 3     Position : 741 
 
  --------------------------------- 
 
          comprehensive
 
  Document : 1     Position : 372 
- Document : 3     Position : 372 
-
- --------------------------------- 
-
-           complete
-
- Document : 1     Position : 562 
- Document : 3     Position : 562 
-
- --------------------------------- 
-
-           compares
-
- Document : 1     Position : 728 
- Document : 3     Position : 728 
 
  --------------------------------- 
 
               be
 
  Document : 1     Position : 172 
- Document : 1     Position : 621 
- Document : 3     Position : 621 
- Document : 3     Position : 172 
 
  --------------------------------- 
 
              built
 
  Document : 1     Position : 323 
- Document : 3     Position : 323 
-
- --------------------------------- 
-
-              can
-
- Document : 1     Position : 617 
- Document : 3     Position : 617 
-
- --------------------------------- 
-
-             build
-
- Document : 1     Position : 475 
- Document : 3     Position : 475 
-
- --------------------------------- 
-
-             being
-
- Document : 1     Position : 650 
- Document : 3     Position : 650 
 
  --------------------------------- 
 
             balance
 
  Document : 1     Position : 267 
- Document : 3     Position : 267 
-
- --------------------------------- 
-
-             based
-
- Document : 1     Position : 508 
- Document : 3     Position : 508 
 
  --------------------------------- 
 
                a
 
  Document : 1     Position : 141 
- Document : 1     Position : 757 
- Document : 1     Position : 560 
  Document : 1     Position : 370 
  Document : 1     Position : 295 
- Document : 3     Position : 757 
- Document : 3     Position : 560 
- Document : 3     Position : 370 
- Document : 3     Position : 295 
- Document : 3     Position : 141 
 
  --------------------------------- 
 
             access
 
  Document : 1     Position : 201 
- Document : 3     Position : 201 
 
  --------------------------------- 
 
            achieved
 
  Document : 1     Position : 278 
- Document : 3     Position : 278 
 
  --------------------------------- 
 
              also
 
  Document : 1     Position : 356 
- Document : 3     Position : 356 
-
- --------------------------------- 
-
-              all
-
- Document : 1     Position : 433 
- Document : 3     Position : 433 
-
- --------------------------------- 
-
-            action
-
- Document : 1     Position : 538 
- Document : 3     Position : 538 
-
- --------------------------------- 
-
-            against
-
- Document : 1     Position : 749 
- Document : 3     Position : 749 
 
  --------------------------------- 
 

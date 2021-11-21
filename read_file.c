@@ -62,6 +62,7 @@ void readFile(char *fileName, Tree **tree, int fileID) {
                 saveInfoIntoTree(tree, info);
 
                 i = 0;
+
             } else {
                 character = tolower(character);
                 auxWord[i] = character;
