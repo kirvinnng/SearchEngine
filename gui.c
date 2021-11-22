@@ -6,7 +6,6 @@ void viewOnlyWords(Tree *tree) {
 
     if (tree) {
         printf(" | Word : '%s'   \n", tree->word);
-
         viewOnlyWords(tree->left);
         viewOnlyWords(tree->right);
     }
@@ -24,24 +23,24 @@ void showTree(Tree *tree) {
 
 void showNodeList(Node *list) {
     while (list) {
-        printf(" .-------------------------\n");
+        printf(" | \n");
         printf(" | Document :  %d            \n", list->idDOC);
         printf(" | Position :  %d            \n", list->position);
-        printf(" .-------------------------\n\n");
-
         list = list->next;
     }
     printf(" ===========================================\n\n");
 }
 
-void verifyError(void *arg, const int line) {
+void verifyError(void *arg,char *fileName ,const int line) {
 
     if (arg == NULL) {
-        fprintf(stderr, "ERROR, Status : %d", line);
+        fprintf(stderr, "ERROR (  FILE : %s - LINE : %d ) \n", fileName,line);
         free(arg);
         exit(1);
     }
 }
+
+
 
 int selectMenuOption() {
     int i = 0;
@@ -77,12 +76,7 @@ int selectMenuOption() {
 
 void menu() {
     setColor(LIGHTCYAN);
-    gotoxy(8, 3);
-    printf("OPEN HTML \n");
-    gotoxy(8, 5);
-    printf("Kevin \n");
-    gotoxy(8, 7);
-    printf("EXIT");
+    gotoxy(0, 0);
 }
 
 void toLowerCase(char *str) {
@@ -118,4 +112,20 @@ void setColor(int value) {
         color = (csbi.wAttributes & 0xF0) + (value & 0x0F);
         SetConsoleTextAttribute(standarOutput, color);
     }
+}
+
+void setWindow(int width, int height, int widthBuffer, int heightBuffer) {
+    COORD coord;
+    coord.X = widthBuffer;
+    coord.Y = heightBuffer;
+
+    SMALL_RECT Rect;
+    Rect.Top = 0;
+    Rect.Left = 0;
+    Rect.Bottom = height - 1;
+    Rect.Right = width - 1;
+
+    HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleScreenBufferSize(handle, coord);
+    SetConsoleWindowInfo(handle, TRUE, &Rect);
 }

@@ -5,7 +5,7 @@
 Node *createNodeList(int idDOC, int position) {
 
     Node *create = (Node *)malloc(sizeof(Node));
-    verifyError(create, __LINE__);
+    verifyError(create,__FILE__, __LINE__);
 
     create->next = NULL;
 
@@ -18,7 +18,7 @@ Node *createNodeList(int idDOC, int position) {
 Tree *createNodeTree(Get info) {
 
     Tree *create = (Tree *)malloc(sizeof(Tree));
-    verifyError(create, __LINE__);
+    verifyError(create, __FILE__, __LINE__);
     create->right = NULL;
     create->left = NULL;
     create->list = NULL;
@@ -94,3 +94,61 @@ int countListNode(Node *list) {
     }
     return acum;
 }
+
+Tree *findWord(Tree *tree, char *word) {
+    Tree *aux;
+    if (tree) {
+        if (!strcmpi(tree->word, word)) {
+            tree->right = NULL;
+            tree->left = NULL;
+            return tree;
+        } else {
+            aux = findWord(tree->left, word);
+            if (!aux) {
+                aux = findWord(tree->right, word);
+            }
+        }
+    } else {
+        return NULL;
+    }
+    return aux;
+}
+
+Tree *findWordByDoc(Tree *tree, char *word, int idDoc) {
+    Tree *aux = NULL;
+    if (tree) {
+        if (!strcmpi(tree->word, word)) {
+            Node * list = matchIdDoc(tree->list, idDoc);
+            if(list){
+                // ! TODO: FIX TREE COPY
+                return aux;
+            }
+        } else {
+            aux = findWordByDoc(tree->left, word, idDoc);
+            if (!aux) {
+                aux = findWordByDoc(tree->right, word, idDoc);
+            }
+        }
+    } else {
+        return NULL;
+    }
+    return aux;
+}
+
+Node * matchIdDoc(Node *list, int idDoc){
+    while(list && list->idDOC != idDoc){
+        list = list->next;
+    }
+    if(list){
+        Node *aux = list;
+        while(aux->next && aux->next->idDOC == idDoc){
+            aux = aux->next;
+        }
+        if(aux){
+            aux->next = NULL;
+            return list;
+        }
+    }
+    return NULL;
+}
+

@@ -30,6 +30,7 @@ void showNodeList(Node *list);
 void menu();
 int selectMenuOption();
 
-void verifyError(void *arg, const int line);
+void verifyError(void *arg,char *fileName, const int line);
 void gotoxy(int x, int y);
 void setColor(int value);
+void setWindow(int width, int height, int widthBuffer, int heightBuffer);

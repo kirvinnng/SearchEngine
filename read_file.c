@@ -34,9 +34,9 @@ void readFile(char *fileName, Tree **tree, int fileID) {
     FILE *buff = fopen(fileName, "rb");
 
     char *auxWord = (char *)calloc(sizeof(char), 20);
-    verifyError(auxWord, __LINE__);
+    verifyError(auxWord, __FILE__,__LINE__);
     char *word = (char *)calloc(sizeof(char), 20);
-    verifyError(word, __LINE__);
+    verifyError(word,__FILE__, __LINE__);
 
     Get info = {0};
     char character;
@@ -46,13 +46,11 @@ void readFile(char *fileName, Tree **tree, int fileID) {
     if (buff != NULL) {
         while (fread(&character, sizeof(char), 1, buff) > 0) {
 
-            if (!verifyCharAlpha(character)) {
+            if (!isValidCharacter(character)) {
 
-                //* if the next character is not charAlpha or Numeric
-                if (i == 0) {
+                //* if the next character is not charAlpha or Numeric, it would jump to the next iteration
+                if (i == 0) { continue; }
 
-                    continue;
-                }
                 strncpy(word, auxWord, i + 1);
 
                 word[i] = '\0';
@@ -98,8 +96,8 @@ Get fillStructField(char *word, int position, int fileID) {
 }
 
 //* Verify if it's a letter or a number
-int verifyCharAlpha(char caracter) {
-    return IsCharAlpha(caracter) || IsCharAlphaNumeric(caracter);
+int isValidCharacter(char character) {
+    return IsCharAlpha(character) || IsCharAlphaNumeric(character);
 }
 
 //* Read the file dictionary.bin & save into tree
@@ -107,41 +105,17 @@ void readDictionary(Tree **tree) {
 
     char dir[30];
     addExtension(dir, ".bin");
-
     FILE *buffer = fopen(dir, "rb");
 
     Get info;
     if (buffer) {
         while (fread(&info, sizeof(Get), 1, buffer) > 0) {
-
-            if (!ifWordExists(*tree, info)) { //* If not exists
-
-                saveInfoIntoTree(tree, info);
-            }
+           saveInfoIntoTree(tree, info);
         }
         fclose(buffer);
     } else {
         printf(" ERROR OPENING '%s' \n ( FILE : %s - LINE : %d )\n", DICTIONARY, __FILE__, __LINE__);
     }
-}
-
-//* Verify that a specific word is not repeated
-int ifWordExists(Tree *tree, Get info) {
-
-    int exits = 1;
-    if (tree) {
-        if (strcmpi(tree->word, info.word) == 0 && tree->list->idDOC == info.idDOC && tree->list->position == info.position) {
-
-            return 0;
-        } else {
-
-            exits = ifWordExists(tree->left, info);
-            if (exits == 0) {
-                exits = ifWordExists(tree->right, info);
-            }
-        }
-    }
-    return exits;
 }
 
 //* Add the folder with "/" in the file name
@@ -150,9 +124,6 @@ void addFolder(char *file) {
     char directory[30];
     strcpy(directory, "database/");
     strcat(directory, file);
-
-    printf(" Path : '%s' \n", directory);
-    printf(" File : '%s' \n", file);
 
     strcpy(file, directory);
 }
