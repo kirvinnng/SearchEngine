@@ -1,11 +1,12 @@
 #include "algorithm.h"
 #include "gui.h"
 #include "main.h"
+#include "read_file.h"
 
 Node *createNodeList(int idDOC, int position) {
 
     Node *create = (Node *)malloc(sizeof(Node));
-    verifyError(create,__FILE__, __LINE__);
+    verifyError(create, __FILE__, __LINE__);
 
     create->next = NULL;
 
@@ -15,14 +16,14 @@ Node *createNodeList(int idDOC, int position) {
     return create;
 }
 
-Tree *createNodeTree(Get info) {
+Tree *createNodeTree(char *word) {
 
     Tree *create = (Tree *)malloc(sizeof(Tree));
     verifyError(create, __FILE__, __LINE__);
     create->right = NULL;
     create->left = NULL;
     create->list = NULL;
-    strcpy(create->word, info.word);
+    strcpy(create->word, word);
 
     return create;
 }
@@ -30,7 +31,7 @@ Tree *createNodeTree(Get info) {
 //* Insert a new tree & list node
 int insertTree(Tree **dictionary, Get info) {
     if (*dictionary == NULL) {
-        *dictionary = createNodeTree(info);
+        *dictionary = createNodeTree(info.word);
         insertNodeSorted(&(*dictionary)->list, info.idDOC, info.position);
         (*dictionary)->length = countListNode((*dictionary)->list);
 
@@ -99,9 +100,11 @@ Tree *findWord(Tree *tree, char *word) {
     Tree *aux;
     if (tree) {
         if (!strcmpi(tree->word, word)) {
-            tree->right = NULL;
-            tree->left = NULL;
-            return tree;
+            aux = createNodeTree(tree->word);
+            aux->list = tree->list;
+            aux->length = tree->length;
+            return aux;
+
         } else {
             aux = findWord(tree->left, word);
             if (!aux) {
@@ -111,18 +114,24 @@ Tree *findWord(Tree *tree, char *word) {
     } else {
         return NULL;
     }
-    return aux;
 }
 
 Tree *findWordByDoc(Tree *tree, char *word, int idDoc) {
     Tree *aux = NULL;
     if (tree) {
-        if (!strcmpi(tree->word, word)) {
-            Node * list = matchIdDoc(tree->list, idDoc);
-            if(list){
-                // ! TODO: FIX TREE COPY
-                return aux;
+        if (strcmpi(tree->word, word) == 0) {
+
+            Node *newList = matchIdDoc(tree->list, idDoc);
+
+            if (newList) {
+
+                aux = createNodeTree(tree->word);
+                aux->length = countListNode(newList);
+                aux->list = newList;
             }
+
+            return aux;
+
         } else {
             aux = findWordByDoc(tree->left, word, idDoc);
             if (!aux) {
@@ -132,23 +141,31 @@ Tree *findWordByDoc(Tree *tree, char *word, int idDoc) {
     } else {
         return NULL;
     }
-    return aux;
 }
 
-Node * matchIdDoc(Node *list, int idDoc){
-    while(list && list->idDOC != idDoc){
+//* Separates the list by different ids
+Node *splitList(Node *list, int idDoc) {
+
+    while (list && list->idDOC != idDoc) {
         list = list->next;
     }
-    if(list){
-        Node *aux = list;
-        while(aux->next && aux->next->idDOC == idDoc){
-            aux = aux->next;
-        }
-        if(aux){
-            aux->next = NULL;
-            return list;
-        }
+
+    Node *new = NULL;
+    insertNodeSorted(&new, list->idDOC, list->position);
+
+    Node *act = list->next;
+
+    //*  insert nodes with the same id
+    while (act && act->idDOC == idDoc) {
+
+        insertNodeSorted(&new, act->idDOC, act->position);
+        act = act->next;
     }
-    return NULL;
+
+    return new;
 }
 
+Node *matchIdDoc(Node *list, int idDoc) {
+
+    return (list) ? splitList(list, idDoc) : NULL;
+}

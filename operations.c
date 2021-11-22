@@ -1,12 +1,12 @@
 #include "operations.h"
 #include "algorithm.h"
-#include "main.h"
 #include "gui.h"
+#include "main.h"
 
-void operation1(Tree *tree){
+void operation1(Tree *tree) {
     char word[30];
     int id1, id2;
-    Tree *auxID1 = tree, *auxID2=tree;
+    Tree *auxID1, *auxID2;
 
     printf("Termino a buscar: ");
     fflush(stdin);
@@ -16,19 +16,18 @@ void operation1(Tree *tree){
     printf("OR\n");
     printf("ID Documento Nro. 2: ");
     scanf("%d", &id2);
-    auxID1 = findWordByDoc(auxID1, word, id1);
-    auxID2 = findWordByDoc(auxID2, word, id2);
-    
-    
-    showTree(tree);
+    auxID1 = findWordByDoc(tree, word, id1);
+    auxID2 = findWordByDoc(tree, word, id2);
 
-    if(auxID1 && auxID2){
+    if (auxID1 && auxID2) {
         showTree(auxID1);
         showTree(auxID2);
-    } else if(!auxID1 && !auxID2){
+
+    } else if (!auxID1 && !auxID2) {
         printf("No se encontro el termino '%s' ni en el documento Nro. %d ni en el Nro. %d.\n", word, id1, id2);
     } else {
-        printf("Se encontro el termino '%s' en el documento Nro. %d, pero no en el documento Nro. %d.\n", word, (auxID1) ? id1 : id2, (!auxID1) ? id1 : id2);
+        printf("Se encontro el termino '%s' en el documento Nro. %d, pero no en el documento Nro. %d.\n", word, (auxID1) ? id1 : id2,
+               (!auxID1) ? id1 : id2);
         showTree((auxID1) ? auxID1 : auxID2);
     }
 }
