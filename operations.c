@@ -6,7 +6,7 @@
 void operation1(Tree *tree) {
     char word[30];
     int id1, id2;
-    Tree *auxID1, *auxID2;
+    Tree *auxID1 = NULL, *auxID2 = NULL;
 
     printf("Termino a buscar: ");
     fflush(stdin);
@@ -17,9 +17,12 @@ void operation1(Tree *tree) {
     printf("ID Documento Nro. 2: ");
     scanf("%d", &id2);
     auxID1 = findWordByDoc(tree, word, id1);
+
     auxID2 = findWordByDoc(tree, word, id2);
+    system("pause");
 
     if (auxID1 && auxID2) {
+
         showTree(auxID1);
         showTree(auxID2);
 

@@ -23,12 +23,12 @@ int main(int argc, char **argv) {
     // showTree(treeDic);
 
     //* User operations
-    // operation1(treeDic);
-
-    Tree *foo = findWord(treeDic, "go");
-
-    showTree(foo);
+    operation1(treeDic);
     system("pause");
-    showTree(treeDic);
+
+    // Tree *foo = findWord(treeDic, "go");
+
+    // showTree(foo);
+    // showTree(treeDic);
     return 0;
 }

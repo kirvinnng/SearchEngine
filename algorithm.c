@@ -151,15 +151,17 @@ Node *splitList(Node *list, int idDoc) {
     }
 
     Node *new = NULL;
-    insertNodeSorted(&new, list->idDOC, list->position);
+    if (list) {
 
-    Node *act = list->next;
+        insertNodeSorted(&new, list->idDOC, list->position);
+        Node *act = list->next;
+        //*  insert nodes with the same id
 
-    //*  insert nodes with the same id
-    while (act && act->idDOC == idDoc) {
+        while (act && act->idDOC == idDoc) {
 
-        insertNodeSorted(&new, act->idDOC, act->position);
-        act = act->next;
+            insertNodeSorted(&new, act->idDOC, act->position);
+            act = act->next;
+        }
     }
 
     return new;
