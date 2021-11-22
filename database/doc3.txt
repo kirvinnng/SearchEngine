@@ -1,0 +1,2 @@
+Go has its own elegance and programming idioms that make the language productive and fun to code in. The language designers set out to create a language that
+would let them be productive without losing access to the lower-level programming matias aceval
