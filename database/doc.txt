@@ -2,5 +2,5 @@ Go has its own elegance and programming idioms that make the language productive
 would let them be productive without losing access to the lower-level programming
 
 
-constructs they needed. This balance is achieved through a minimized set of keywords, built-in functions, and syntax. Go also provides a comprehensive standard
+constructs they needed. This balance Go is achieved Go go through a minimized set of keywords, built-in functions, and syntax. Go also provides a comprehensive standard
 

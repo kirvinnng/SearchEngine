@@ -13,8 +13,8 @@ int main(int argc, char **argv) {
     setWindow(150, 35, 150, 1000);
     //* these functions are to read the files and pass them to the tree,
     //* then create the dictionary.
-    // readAllFiles(&tree);
-    // createBinary(tree);
+    readAllFiles(&tree);
+    createBinary(tree);
     //*----------------------------------
     // system("cd document && dictionary.html");
 
@@ -22,10 +22,12 @@ int main(int argc, char **argv) {
     readDictionary(&treeDic);
     // showTree(treeDic);
 
-    //* User operations
-    operation1(treeDic);
-    system("pause");
-
+    //* 🤩 User operations 🤩
+    //operation1(treeDic);
+    //operation2(treeDic);
+    //operation3(treeDic);
+    operation4(treeDic);
+    //operation5(treeDic);
     // Tree *foo = findWord(treeDic, "go");
 
     // showTree(foo);

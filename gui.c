@@ -21,6 +21,14 @@ void showTree(Tree *tree) {
     }
 }
 
+void showTreeWithoutWord(Tree *tree) {
+    if (tree) {
+        showNodeList(tree->list);
+        showTree(tree->left);
+        showTree(tree->right);
+    }
+}
+
 void showNodeList(Node *list) {
     while (list) {
         printf(" | \n");

@@ -50,13 +50,14 @@ void readFile(char *fileName, Tree **tree, int fileID) {
 
                 //* if the next character is not charAlpha or Numeric, it would jump to the next iteration
                 if (i == 0) { continue; }
+                position++;
 
                 strncpy(word, auxWord, i + 1);
 
                 word[i] = '\0';
                 info = fillStructField(word, position, fileID);
 
-                info.position -= strlen(word); //* start of the word
+                //info.position -= strlen(word); //* start of the word
                 saveInfoIntoTree(tree, info);
 
                 i = 0;
@@ -66,7 +67,7 @@ void readFile(char *fileName, Tree **tree, int fileID) {
                 auxWord[i] = character;
                 i++;
             }
-            position++;
+            //position++; for character positions
         }
         fclose(buff);
         free(word);

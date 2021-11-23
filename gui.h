@@ -25,6 +25,7 @@ enum Colors {
 
 void viewOnlyWords(Tree *tree);
 void showTree(Tree *tree);
+void showTreeWithoutWord(Tree *tree);
 void showNodeList(Node *list);
 
 void menu();
