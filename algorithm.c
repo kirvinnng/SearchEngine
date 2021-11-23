@@ -92,6 +92,8 @@ int countListNode(Node *list) {
     return acum;
 }
 
+//* Find a word into the tree
+//* ( return a tree without child nodes )
 Tree *findWord(Tree *tree, char *word) {
     Tree *aux;
     if (tree) {
@@ -112,6 +114,8 @@ Tree *findWord(Tree *tree, char *word) {
     }
 }
 
+//* Find a word per document
+//* ( return a tree without child nodes )
 Tree *findWordByDoc(Tree *tree, char *word, int idDoc) {
     Tree *aux = NULL;
     if (tree) {
@@ -138,6 +142,7 @@ Tree *findWordByDoc(Tree *tree, char *word, int idDoc) {
 }
 
 //* Separates the list by different ids
+//* Return a new list if the Document ID is found, otherwise return NULL
 Node *splitList(Node *list, int idDoc) {
     while (list && list->idDOC != idDoc) {
         list = list->next;
@@ -158,6 +163,8 @@ Node *splitList(Node *list, int idDoc) {
     return new;
 }
 
+//* Find a specific document
+//* Return a new list if the Document ID is found, otherwise return NULL
 Node *matchIdDoc(Node *list, int idDoc) {
     return (list) ? splitList(list, idDoc) : NULL;
 }
@@ -175,6 +182,7 @@ int existNodeAtPosition(Node *list, int pos) {
     return found;
 }
 
+//* Get a position into the list
 int getListPositionAtIndex(Node *list, int pos) {
     for (int i = 0; i < pos; i++) {
         list = list->next;
@@ -183,6 +191,7 @@ int getListPositionAtIndex(Node *list, int pos) {
 }
 
 //* Separates a sentence word by word and stores it in the bidimensional array
+//* Return the valid array size
 int splitString(char tokens[500][50], char *phrase) {
     char *delim = ". ,-;:'¡!\"#$%%&/()=?¿·~^¨+-ºª{}[]<>\\*";
     char *token;
@@ -199,6 +208,7 @@ int splitString(char tokens[500][50], char *phrase) {
 }
 
 //* Search a phrase in the tree
+//* return a 'SearchResult structure' with the data collected
 SearchResult searchPhraseOnTree(Tree *tree, char *phrase, int id) {
     char phraseAux[500];
     strcpy(phraseAux, phrase);
@@ -236,6 +246,7 @@ SearchResult searchPhraseOnTree(Tree *tree, char *phrase, int id) {
 }
 
 //* Search for the most frequent word in a document by id
+//* Return a 'FrequentWord structure' with the data collected
 FrequentWord frequentWordByDocumentID(Tree *tree, int idDoc) {
     FrequentWord fwHead;
     FrequentWord fwLeft;
