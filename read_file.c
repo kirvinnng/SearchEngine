@@ -34,9 +34,9 @@ void readFile(char *fileName, Tree **tree, int fileID) {
     FILE *buff = fopen(fileName, "rb");
 
     char *auxWord = (char *)calloc(sizeof(char), 20);
-    verifyError(auxWord, __FILE__,__LINE__);
+    verifyError(auxWord, __FILE__, __LINE__);
     char *word = (char *)calloc(sizeof(char), 20);
-    verifyError(word,__FILE__, __LINE__);
+    verifyError(word, __FILE__, __LINE__);
 
     Get info = {0};
     char character;
@@ -49,7 +49,9 @@ void readFile(char *fileName, Tree **tree, int fileID) {
             if (!isValidCharacter(character)) {
 
                 //* if the next character is not charAlpha or Numeric, it would jump to the next iteration
-                if (i == 0) { continue; }
+                if (i == 0) {
+                    continue;
+                }
                 position++;
 
                 strncpy(word, auxWord, i + 1);
@@ -57,7 +59,7 @@ void readFile(char *fileName, Tree **tree, int fileID) {
                 word[i] = '\0';
                 info = fillStructField(word, position, fileID);
 
-                //info.position -= strlen(word); //* start of the word
+                // info.position -= strlen(word); //* start of the word
                 saveInfoIntoTree(tree, info);
 
                 i = 0;
@@ -67,7 +69,7 @@ void readFile(char *fileName, Tree **tree, int fileID) {
                 auxWord[i] = character;
                 i++;
             }
-            //position++; for character positions
+            // position++; for character positions
         }
         fclose(buff);
         free(word);
@@ -102,21 +104,47 @@ int isValidCharacter(char character) {
 }
 
 //* Read the file dictionary.bin & save into tree
-void readDictionary(Tree **tree) {
+TreeInfo readDictionary(Tree **tree) {
 
     char dir[30];
     addExtension(dir, ".bin");
     FILE *buffer = fopen(dir, "rb");
 
+    TreeInfo treeInfo = {0};
     Get info;
+    int size = 0;
+
     if (buffer) {
         while (fread(&info, sizeof(Get), 1, buffer) > 0) {
-           saveInfoIntoTree(tree, info);
+
+            saveInfoIntoTree(tree, info);
+
+            if (documentExists(treeInfo.documentsID, info.idDOC, size)) {
+
+                treeInfo.documentsID[size] = info.idDOC; //* save the id documents
+                size++;
+
+                treeInfo.allDocument = size;
+            }
+            treeInfo.words++;
         }
         fclose(buffer);
     } else {
         printf(" ERROR OPENING '%s' \n ( FILE : %s - LINE : %d )\n", DICTIONARY, __FILE__, __LINE__);
     }
+
+    return treeInfo;
+}
+
+int documentExists(int documentID[], int newID, int size) {
+
+    for (int i = 0; i < size; i++) {
+
+        if (documentID[i] == newID) { //* if exist return 0 , else 1
+            return 0;
+        }
+    }
+    return 1;
 }
 
 //* Add the folder with "/" in the file name

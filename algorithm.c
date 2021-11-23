@@ -158,7 +158,7 @@ Node *splitList(Node *list, int idDoc) {
     return new;
 }
 
-Node *matchIdDoc(Node *list, int idDoc) { 
+Node *matchIdDoc(Node *list, int idDoc) {
     return (list) ? splitList(list, idDoc) : NULL;
 }
 
@@ -171,9 +171,9 @@ int existNodeAtPosition(Node *list, int pos) {
         }
         list = list->next;
     }
+
     return found;
 }
-
 
 int getListPositionAtIndex(Node *list, int pos) {
     for (int i = 0; i < pos; i++) {
@@ -217,8 +217,7 @@ SearchResult searchPhraseOnTree(Tree *tree, char *phrase, int id) {
     }
 
     if (!found) {
-        return (SearchResult){
-            .foundAllWords = found, .allWordsInOrder = false, .wordInitialPosition = -1};
+        return (SearchResult){.foundAllWords = found, .allWordsInOrder = false, .wordInitialPosition = -1};
     }
 
     int exist = 0;
@@ -233,8 +232,7 @@ SearchResult searchPhraseOnTree(Tree *tree, char *phrase, int id) {
         }
     }
 
-    return (SearchResult){
-        .foundAllWords = found, .allWordsInOrder = exist, .wordInitialPosition = initialPos};
+    return (SearchResult){.foundAllWords = found, .allWordsInOrder = exist, .wordInitialPosition = initialPos};
 }
 
 //* Search for the most frequent word in a document by id
@@ -247,13 +245,13 @@ FrequentWord frequentWordByDocumentID(Tree *tree, int idDoc) {
         fwRight = frequentWordByDocumentID(tree->right, idDoc);
 
         //* separate the list, and count his nodes
-        fwHead.frequency = countListNode(splitList(tree->list, idDoc););
+        fwHead.frequency = countListNode(splitList(tree->list, idDoc));
         strcpy(fwHead.word, tree->word);
 
-        return fwHead.frequency > fwLeft.frequency
-                   ? (fwHead.frequency > fwRight.frequency ? fwHead : fwRight)
-                   : (fwLeft.frequency > fwRight.frequency ? fwLeft : fwRight);
+        return fwHead.frequency > fwLeft.frequency ? (fwHead.frequency > fwRight.frequency ? fwHead : fwRight)
+                                                   : (fwLeft.frequency > fwRight.frequency ? fwLeft : fwRight);
     } else {
+
         return (FrequentWord){.frequency = -1};
     }
 }
@@ -262,16 +260,19 @@ int levenshtein(char *s1, char *s2) {
     int t1, t2, i, j, *m, costo, res, ancho;
     t1 = strlen(s1);
     t2 = strlen(s2);
-    if (t1 == 0) return (t2);
-    if (t2 == 0) return (t1);
+    if (t1 == 0)
+        return (t2);
+    if (t2 == 0)
+        return (t1);
 
     ancho = t1 + 1;
-    m = (int *)calloc(sizeof(int) , (t1 + 1) * (t2 + 1));
-    verifyError(m,__FILE__,__LINE__);
+    m = (int *)calloc(sizeof(int), (t1 + 1) * (t2 + 1));
+    verifyError(m, __FILE__, __LINE__);
 
-
-    for (i = 0; i <= t1; i++) m[i] = i;
-    for (j = 0; j <= t2; j++) m[j * ancho] = j;
+    for (i = 0; i <= t1; i++)
+        m[i] = i;
+    for (j = 0; j <= t2; j++)
+        m[j * ancho] = j;
 
     for (i = 1; i <= t1; i++)
         for (j = 1; j <= t2; j++) {
@@ -279,11 +280,10 @@ int levenshtein(char *s1, char *s2) {
                 costo = 0;
             } else {
                 costo = 1;
-                m[j * ancho + i] = min(min(m[j * ancho + i - 1] + 1,
-                                                 m[(j - 1) * ancho + i] + 1), 
-                                          m[(j - 1) * ancho + i - 1] + costo);
+                m[j * ancho + i] =
+                    min(min(m[j * ancho + i - 1] + 1, m[(j - 1) * ancho + i] + 1), m[(j - 1) * ancho + i - 1] + costo);
             }
-        }  
+        }
     res = m[t2 * ancho + t1];
     free(m);
 

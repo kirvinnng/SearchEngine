@@ -26,7 +26,7 @@ int countListNode(Node *list);
 int existNodeAtPosition(Node *list, int pos);
 int getListPositionAtIndex(Node *list, int pos);
 
-int splitString(char tokens[500][50],char *phrase);
+int splitString(char tokens[500][50], char *phrase);
 
 Tree *findWord(Tree *tree, char *word);
 Tree *findWordByDoc(Tree *tree, char *word, int idDoc);
@@ -36,3 +36,4 @@ SearchResult searchPhraseOnTree(Tree *tree, char *phrase, int id);
 
 FrequentWord frequentWordByDocumentID(Tree *tree, int idDOC);
 
+int levenshtein(char *s1, char *s2);

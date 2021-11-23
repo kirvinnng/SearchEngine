@@ -15,4 +15,5 @@ Get fillStructField(char *word, int position, int fileID);
 void addFolder(char *file);
 void addExtension(char *dir, char *extension);
 
-void readDictionary(Tree **tree);
+TreeInfo readDictionary(Tree **tree);
+int documentExists(int documentID[], int newID, int size);

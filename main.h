@@ -7,10 +7,19 @@
 #include <string.h>
 #include <windows.h>
 
+//* number of documents and words
+typedef struct TreeInfo {
+
+    int allDocument;     // Total number of documents
+    int documentsID[10]; // Document IDs : [ 1 , 2 , 5 , 6 , 8 ]
+    int words;           // Total number of words
+
+} TreeInfo;
+
 typedef struct Get {
-    char word[20];
+    char word[50];
     int idDOC;
-    int position; // incrementa palabra por palabra, y no letra por letra
+    int position;
 } Get;
 
 typedef struct Node {
@@ -20,9 +29,9 @@ typedef struct Node {
 } Node;
 
 typedef struct Tree {
-    char word[20];
-    int length; // representa la cantidad de nodos de la lista
-    Node *list; // ordenada por idDOC, luego por pos
+    char word[50];
+    int length;
+    Node *list;
     struct Tree *right;
     struct Tree *left;
 } Tree;

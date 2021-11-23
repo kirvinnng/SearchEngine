@@ -19,15 +19,15 @@ int main(int argc, char **argv) {
     // system("cd document && dictionary.html");
 
     Tree *treeDic = NULL;
-    readDictionary(&treeDic);
+    TreeInfo treeInfo = readDictionary(&treeDic);
     // showTree(treeDic);
 
     //* 🤩 User operations 🤩
-    //operation1(treeDic);
-    //operation2(treeDic);
-    //operation3(treeDic);
-    operation4(treeDic);
-    //operation5(treeDic);
+    // operation1(treeDic);
+    // operation2(treeDic);
+    // operation3(treeDic);
+    // operation4(treeDic);
+    operation5(treeDic, treeInfo);
     // Tree *foo = findWord(treeDic, "go");
 
     // showTree(foo);
