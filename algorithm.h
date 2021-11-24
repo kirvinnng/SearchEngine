@@ -15,6 +15,12 @@ typedef struct FrequentWord {
     int frequency;
 } FrequentWord;
 
+typedef struct WordSimilarity {
+    char originalWord[50];
+    char similarWord[50];
+    int distance;
+} WordSimilarity;
+
 Tree *createNodeTree(char *word);
 Node *createNodeList(int idDOC, int position);
 
@@ -37,3 +43,4 @@ SearchResult searchPhraseOnTree(Tree *tree, char *phrase, int id);
 FrequentWord frequentWordByDocumentID(Tree *tree, int idDOC);
 
 int levenshtein(char *s1, char *s2);
+WordSimilarity _didYouMean(Tree *tree, char *word);

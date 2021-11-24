@@ -7,32 +7,27 @@
 //* 1) Search for all occurrences of a term in a document (operation or).
 void operation1(Tree *tree) {
     char word[500];
-    int id1, id2;
-    Tree *auxID1 = NULL, *auxID2 = NULL;
+    int id;
+    Tree *auxID = NULL;
 
     printf(" Termino a buscar: ");
     fflush(stdin);
     scanf("%s", word);
-    printf(" ID Documento Nro. 1: ");
+    toLowerCase(word);
+    printf(" ID Documento: ");
     fflush(stdin);
-    scanf("%d", &id1);
-    printf(" OR\n");
-    printf(" ID Documento Nro. 2: ");
-    fflush(stdin);
-    scanf("%d", &id2);
-    auxID1 = findWordByDoc(tree, word, id1);
-    auxID2 = findWordByDoc(tree, word, id2);
-    if (auxID1 && auxID2) {
-        printf("\nSe encontro el termino '%s' tanto en el documento Nro. %d como en el Nro. %d.\n", word, id1, id2);
-        showTreeWithoutWord(auxID1);
-        showTreeWithoutWord(auxID2);
+    scanf("%d", &id);
 
-    } else if (!auxID1 && !auxID2) {
-        printf("No se encontro el termino '%s' ni en el documento Nro. %d ni en el Nro. %d.\n", word, id1, id2);
-    } else {
-        printf("Se encontro el termino '%s' en el documento Nro. %d, pero no en el documento Nro. %d.\n", word,
-               (auxID1) ? id1 : id2, (!auxID1) ? id1 : id2);
-        showTreeWithoutWord((auxID1) ? auxID1 : auxID2);
+    if(didYouMean(tree, word) == -1){
+        return;
+    }
+
+    auxID = findWordByDoc(tree, word, id);
+    if (auxID) {
+        printf("\nSe encontro el termino '%s' en el documento Nro. %d.\n", word, id);
+        showTreeWithoutWord(auxID);
+    } else if (!auxID) {
+        printf("No se encontro el termino '%s' en el documento Nro. %d.\n", word, id);
     }
 }
 
@@ -45,15 +40,19 @@ void operation2(Tree *tree) {
     printf(" Termino a buscar: ");
     fflush(stdin);
     scanf("%s", word);
+    toLowerCase(word);
     printf(" ID Documento Nro. 1: ");
     fflush(stdin);
     scanf("%d", &id1);
-    printf("AND\n");
     printf(" ID Documento Nro. 2: ");
     fflush(stdin);
     scanf("%d", &id2);
-    auxID1 = findWordByDoc(tree, word, id1);
 
+    if (didYouMean(tree, word) == -1) {
+        return;
+    }
+
+    auxID1 = findWordByDoc(tree, word, id1);
     auxID2 = findWordByDoc(tree, word, id2);
 
     if (auxID1 && auxID2) {
@@ -82,6 +81,12 @@ void operation3(Tree *tree) {
         printf(" Termino a buscar: ");
         fflush(stdin);
         scanf("%s", word);
+        toLowerCase(word);
+
+        if (didYouMean(tree, word) == -1) {
+            return;
+        }
+
         auxID1 = findWordByDoc(tree, word, id);
 
         if (auxID1) {
@@ -105,6 +110,7 @@ void operation4(Tree *tree) {
     printf(" Ingrese una frase a buscar: ");
     fflush(stdin);
     gets(phrase);
+    toLowerCase(phrase);
 
     printf(" ID Documento: ");
     scanf("%d", &id);
@@ -148,6 +154,3 @@ void operation5(Tree *tree, TreeInfo treeInfo) {
     printf(" ID %d : La palabra %s tiene la frecuencia mas alta con %d %s \n", id, fw.word, fw.frequency,
            (fw.frequency == 1) ? "aparicion" : "apariciones");
 }
-
-//* 6) Use the levenshtein distance in the input of a word and suggests similar words from a distance <= 3
-void operation6(Tree *tree) {}

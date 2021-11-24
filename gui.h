@@ -30,6 +30,8 @@ void showNodeList(Node *list);
 
 void menu();
 int selectMenuOption();
+void toLowerCase(char *str);
+int didYouMean(Tree *tree, char *word);
 
 void verifyError(void *arg,char *fileName, const int line);
 void gotoxy(int x, int y);

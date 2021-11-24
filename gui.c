@@ -102,6 +102,27 @@ void toLowerCase(char *str) {
     }
 }
 
+int didYouMean(Tree *tree, char *word) {
+    WordSimilarity ws = _didYouMean(tree, word);
+    if (ws.distance != 0 && ws.distance <= 3) {
+        char confirmation = 'n';
+        printf(" No se encontro el termino '%s', %cquisiste decir '%s'? s/n: ", ws.originalWord,
+               168, ws.similarWord);
+        fflush(stdin);
+        scanf("%c", &confirmation);
+        if (confirmation != 's') {
+            return -1;
+        }
+        strcpy(word, ws.similarWord);
+        return 1;
+    } else if (ws.distance > 3) {
+        printf(" No se encontro el termino '%s' ni similes en los documentos.\n", ws.originalWord);
+        return -1;
+    } else {
+        return 0;
+    }
+}
+
 void gotoxy(int x, int y) {
 
     HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
