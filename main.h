@@ -23,7 +23,11 @@
 #define KEY_RIGHT 77
 #define KEY_DOWN 80
 #define KEY_LEFT 75
+
 #define ESC 27
+#define UP 24
+#define DOWN 25
+#define RIGHT 26
 
 //* number of documents and words
 typedef struct TreeInfo {

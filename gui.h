@@ -27,6 +27,7 @@ enum Colors {
 int userChoice(Tree *tree, TreeInfo treeInfo);
 int selectMenuOption();
 void menu();
+void keyMovement(const int _x, const int _y);
 
 void viewOnlyWords(Tree *tree);
 void showTree(Tree *tree, int x, int y);

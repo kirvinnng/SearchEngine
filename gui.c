@@ -4,7 +4,7 @@
 #include "operations.h"
 
 const int x = 40;
-const int y = 6;
+const int y = 5;
 
 int userChoice(Tree *tree, TreeInfo treeInfo) {
 
@@ -37,9 +37,10 @@ int userChoice(Tree *tree, TreeInfo treeInfo) {
                 operation5(tree, treeInfo);
                 break;
             case 5:
+
                 openHTML(tree);
             default:
-                break;
+                return 0;
         }
 
         gotoxy(0, 0);
@@ -59,24 +60,32 @@ int selectMenuOption() {
 
     do {
         enter = false;
+        keyMovement(68, 21);
         menu(x, y);
 
         getch();
-        if (GetAsyncKeyState(0x26) & 0x8000) { //  Arriba
+
+        if (GetAsyncKeyState(0x26) & 0x8000) { //* ⬆ Up ⬆
             i = i > 0 ? i -= 1 : i;
-        } else if (GetAsyncKeyState(0x28) & 0x8000) { // Abajo
+        } else if (GetAsyncKeyState(0x28) & 0x8000) { //* ⬇ Down ⬇
             i = i < 6 ? i += 1 : i;
-        } else if (GetAsyncKeyState(0x0D) & 0x8000) { // Enter
+        } else if (GetAsyncKeyState(0x0D) & 0x8000) { //* ↩ Enter ↩
             enter = true;
         } else {
             i = i;
         }
 
         Sleep(80);
-        system("cls");
+
+        for (int i = 0; i < 14; i++) {
+            gotoxy(x - 1, y + i);
+            printf(" ");
+        }
 
         gotoxy(x - 1, y + 1 + (i * 2));
+
         setColor(WHITE);
+
         printf(">");
 
     } while (!enter);
@@ -185,7 +194,7 @@ int choiceDocument(TreeInfo treeInfo, int _x, int _y, int numDoc) {
 int didYouMean(Tree *tree, char *word) {
 
     WordSimilarity ws = _didYouMean(tree, word);
-    printf(" %s |  %s | %d \n", ws.originalWord, ws.similarWord, ws.distance);
+
     gotoxy(x - 36, y + 1);
 
     if (ws.distance != 0 && ws.distance <= 3) {
@@ -214,9 +223,27 @@ int didYouMean(Tree *tree, char *word) {
     }
 }
 
+void keyMovement(const int _x, const int _y) {
+    gotoxy(_x + 5, _y);
+    printf("  ____");
+    gotoxy(_x + 5, _y + 1);
+    printf(" ||%c ||", UP);
+    gotoxy(_x + 5, _y + 2);
+    printf(" ||__||");
+    gotoxy(_x, _y + 3);
+    printf("  ____|/__\\|____ ");
+    gotoxy(_x, _y + 4);
+    printf(" ||%c |||%c |||%c ||", ESC, DOWN, RIGHT);
+    gotoxy(_x, _y + 5);
+    printf(" ||__|||__|||__||");
+    gotoxy(_x, _y + 6);
+    printf(" |/__\\|/__\\|/__\\|");
+}
+
 void verifyError(void *arg, char *fileName, const int line) {
 
     if (arg == NULL) {
+        gotoxy(0, 0);
         fprintf(stderr, "ERROR (  FILE : %s - LINE : %d ) \n", fileName, line);
         free(arg);
         exit(1);

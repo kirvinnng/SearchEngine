@@ -1,5 +1,6 @@
 #include "create_file.h"
 #include "algorithm.h"
+#include "gui.h"
 #include "main.h"
 #include "read_file.h"
 
@@ -57,7 +58,7 @@ FILE *openFile(char *extensionFile, char *mode) {
 
         return buff;
     }
-
+    gotoxy(0, 0);
     printf(" ERROR OPENING '%s' \n ( FILE : %s - LINE : %d )\n", dir, __FILE__, __LINE__);
 }
 

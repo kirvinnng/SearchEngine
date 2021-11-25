@@ -76,6 +76,7 @@ void readFile(char *fileName, Tree **tree, int fileID) {
         free(auxWord);
 
     } else {
+        gotoxy(0, 0);
         printf(" ERROR OPENING '%s' \n ( FILE : %s - LINE : %d )\n", fileName, __FILE__, __LINE__);
     }
 }
@@ -130,6 +131,7 @@ TreeInfo readDictionary(Tree **tree) {
         }
         fclose(buffer);
     } else {
+        gotoxy(0, 0);
         printf(" ERROR OPENING '%s' \n ( FILE : %s - LINE : %d )\n", DICTIONARY, __FILE__, __LINE__);
     }
 
