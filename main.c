@@ -10,7 +10,6 @@ int main(int argc, char **argv) {
     setWindow(150, 30, 150, 1000); //🔏
 
     Tree *tree = NULL;
-
     //* this function is to read the files and pass them to the tree 📖
     readAllFiles(&tree);
 

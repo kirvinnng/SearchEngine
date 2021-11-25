@@ -57,7 +57,7 @@ void operation2(Tree *tree, TreeInfo treeInfo) {
     gotoxy(x, y + 1);
     printf(" Palabra  ", COM);
     inputSign(LIGHTCYAN);
-    inputSign(LIGHTCYAN);
+    // inputSign(LIGHTCYAN);
     fflush(stdin);
     scanf("%s", word);
     toLowerCase(word);
@@ -146,7 +146,7 @@ void operation4(Tree *tree, TreeInfo treeInfo) {
 
     if (!result.foundAllWords) {
         gotoxy(x, y + 5);
-        printf(" No se encontraron todas las palabras de la frase '%s'. ", phrase);
+        printf(" No se encontraron las palabras de la frase '%s'. ", phrase);
     } else {
         gotoxy(x, y + 5);
         printf(" Se encontraron todas las palabras de la frase '%s' ", phrase);

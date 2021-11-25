@@ -29,7 +29,10 @@ void createBinary(Tree *tree) {
     closeFile(buff);
 }
 
+int countWords;
 void createJSON(Tree *tree) {
+
+    countTreeNode(tree, &countWords);
 
     FILE *buff = openFile(".json", "w");
     fprintf(buff, "[\n");
@@ -95,8 +98,7 @@ int getFlag(char *extensionFile) {
     return flag;
 }
 
-int lastNode = -5;
-
+int count;
 //* Insert the linked list & Tree data to specific files
 void listToFile(Node *list, char *word, FILE *buff, char *extensionFile, Tree *tree) {
 
@@ -109,12 +111,6 @@ void listToFile(Node *list, char *word, FILE *buff, char *extensionFile, Tree *t
         printMiddlePart(flag, buff, info, list);
         list = list->next;
     }
-
-    if (lastNode == -5) {
-        lastNode = 0;
-        countTreeNode(tree, &lastNode);
-    }
-    lastNode--;
 
     printLastPart(flag, buff);
 }
@@ -170,8 +166,9 @@ void printLastPart(int extensionID, FILE *buff) {
             fprintf(buff, "\n --------------------------------- \n\n");
             break;
         case JSON:
+            count++;
+            fprintf(buff, "\n]\n}%s\n", (count == countWords) ? " " : ",");
 
-            fprintf(buff, "\n]\n}%s \n", (lastNode != 0) ? "," : "");
             break;
     }
 }

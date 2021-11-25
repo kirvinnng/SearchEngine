@@ -1,6 +1,6 @@
 [
 {
-    "Word": "go",
+    "Word": "this",
  "Info": [
 {
       "Document": "1", 
@@ -8,199 +8,260 @@
 },
 {
       "Document": "1", 
-      "Position": "69"
+      "Position": "108"
 },
 {
       "Document": "1", 
-      "Position": "63"
+      "Position": "84"
 },
 {
       "Document": "1", 
-      "Position": "51"
+      "Position": "36"
+},
+{
+      "Document": "4", 
+      "Position": "108"
+},
+{
+      "Document": "4", 
+      "Position": "84"
+},
+{
+      "Document": "4", 
+      "Position": "36"
+}
+]
+},
+{
+    "Word": "will",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "3"
 },
 {
       "Document": "1", 
-      "Position": "50"
+      "Position": "207"
 },
 {
       "Document": "1", 
-      "Position": "47"
+      "Position": "129"
 },
 {
-      "Document": "2", 
+      "Document": "1", 
+      "Position": "111"
+},
+{
+      "Document": "1", 
+      "Position": "101"
+},
+{
+      "Document": "1", 
+      "Position": "80"
+},
+{
+      "Document": "1", 
+      "Position": "59"
+},
+{
+      "Document": "1", 
+      "Position": "44"
+},
+{
+      "Document": "4", 
+      "Position": "207"
+},
+{
+      "Document": "4", 
+      "Position": "129"
+},
+{
+      "Document": "4", 
+      "Position": "111"
+},
+{
+      "Document": "4", 
+      "Position": "101"
+},
+{
+      "Document": "4", 
+      "Position": "80"
+},
+{
+      "Document": "4", 
+      "Position": "59"
+},
+{
+      "Document": "4", 
+      "Position": "44"
+},
+{
+      "Document": "4", 
+      "Position": "3"
+}
+]
+},
+{
+    "Word": "you",
+ "Info": [
+{
+      "Document": "1", 
       "Position": "5"
 },
 {
-      "Document": "3", 
-      "Position": "1"
+      "Document": "1", 
+      "Position": "230"
+},
+{
+      "Document": "1", 
+      "Position": "189"
+},
+{
+      "Document": "1", 
+      "Position": "176"
+},
+{
+      "Document": "1", 
+      "Position": "113"
+},
+{
+      "Document": "1", 
+      "Position": "100"
+},
+{
+      "Document": "1", 
+      "Position": "79"
+},
+{
+      "Document": "1", 
+      "Position": "43"
+},
+{
+      "Document": "1", 
+      "Position": "18"
+},
+{
+      "Document": "4", 
+      "Position": "230"
+},
+{
+      "Document": "4", 
+      "Position": "189"
+},
+{
+      "Document": "4", 
+      "Position": "176"
+},
+{
+      "Document": "4", 
+      "Position": "113"
+},
+{
+      "Document": "4", 
+      "Position": "100"
+},
+{
+      "Document": "4", 
+      "Position": "79"
+},
+{
+      "Document": "4", 
+      "Position": "43"
+},
+{
+      "Document": "4", 
+      "Position": "18"
+},
+{
+      "Document": "4", 
+      "Position": "5"
 }
 ]
-}, 
+},
 {
-    "Word": "has",
+    "Word": "your",
  "Info": [
 {
       "Document": "1", 
-      "Position": "2"
+      "Position": "12"
 },
 {
-      "Document": "3", 
-      "Position": "2"
+      "Document": "1", 
+      "Position": "234"
+},
+{
+      "Document": "1", 
+      "Position": "162"
+},
+{
+      "Document": "1", 
+      "Position": "134"
+},
+{
+      "Document": "1", 
+      "Position": "123"
+},
+{
+      "Document": "4", 
+      "Position": "234"
+},
+{
+      "Document": "4", 
+      "Position": "162"
+},
+{
+      "Document": "4", 
+      "Position": "134"
+},
+{
+      "Document": "4", 
+      "Position": "123"
+},
+{
+      "Document": "4", 
+      "Position": "12"
 }
 ]
-}, 
+},
 {
-    "Word": "its",
+    "Word": "written",
  "Info": [
 {
       "Document": "1", 
-      "Position": "3"
+      "Position": "26"
 },
 {
-      "Document": "3", 
-      "Position": "3"
+      "Document": "4", 
+      "Position": "26"
 }
 ]
-}, 
+},
 {
-    "Word": "own",
+    "Word": "work",
  "Info": [
 {
       "Document": "1", 
-      "Position": "4"
+      "Position": "49"
 },
 {
-      "Document": "3", 
-      "Position": "4"
+      "Document": "4", 
+      "Position": "49"
 }
 ]
-}, 
+},
 {
-    "Word": "programming",
+    "Word": "workspace",
  "Info": [
 {
       "Document": "1", 
-      "Position": "7"
+      "Position": "124"
 },
 {
-      "Document": "1", 
-      "Position": "41"
-},
-{
-      "Document": "3", 
-      "Position": "41"
-},
-{
-      "Document": "3", 
-      "Position": "7"
+      "Document": "4", 
+      "Position": "124"
 }
 ]
-}, 
-{
-    "Word": "that",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "9"
 },
-{
-      "Document": "1", 
-      "Position": "28"
-},
-{
-      "Document": "3", 
-      "Position": "28"
-},
-{
-      "Document": "3", 
-      "Position": "9"
-}
-]
-}, 
-{
-    "Word": "the",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "11"
-},
-{
-      "Document": "1", 
-      "Position": "38"
-},
-{
-      "Document": "1", 
-      "Position": "19"
-},
-{
-      "Document": "3", 
-      "Position": "38"
-},
-{
-      "Document": "3", 
-      "Position": "19"
-},
-{
-      "Document": "3", 
-      "Position": "11"
-}
-]
-}, 
-{
-    "Word": "to",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "16"
-},
-{
-      "Document": "1", 
-      "Position": "37"
-},
-{
-      "Document": "1", 
-      "Position": "24"
-},
-{
-      "Document": "3", 
-      "Position": "37"
-},
-{
-      "Document": "3", 
-      "Position": "24"
-},
-{
-      "Document": "3", 
-      "Position": "16"
-}
-]
-}, 
-{
-    "Word": "would",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "29"
-},
-{
-      "Document": "3", 
-      "Position": "29"
-}
-]
-}, 
-{
-    "Word": "without",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "34"
-},
-{
-      "Document": "3", 
-      "Position": "34"
-}
-]
-}, 
 {
     "Word": "world",
  "Info": [
@@ -209,7 +270,383 @@
       "Position": "3"
 }
 ]
-}, 
+},
+{
+    "Word": "would",
+ "Info": [
+{
+      "Document": "3", 
+      "Position": "29"
+}
+]
+},
+{
+    "Word": "with",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "98"
+},
+{
+      "Document": "1", 
+      "Position": "146"
+},
+{
+      "Document": "4", 
+      "Position": "146"
+},
+{
+      "Document": "4", 
+      "Position": "98"
+}
+]
+},
+{
+    "Word": "without",
+ "Info": [
+{
+      "Document": "3", 
+      "Position": "34"
+}
+]
+},
+{
+    "Word": "windows",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "171"
+},
+{
+      "Document": "4", 
+      "Position": "171"
+}
+]
+},
+{
+    "Word": "through",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "6"
+},
+{
+      "Document": "1", 
+      "Position": "114"
+},
+{
+      "Document": "1", 
+      "Position": "50"
+},
+{
+      "Document": "4", 
+      "Position": "114"
+},
+{
+      "Document": "4", 
+      "Position": "50"
+},
+{
+      "Document": "4", 
+      "Position": "6"
+}
+]
+},
+{
+    "Word": "up",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "11"
+},
+{
+      "Document": "1", 
+      "Position": "122"
+},
+{
+      "Document": "1", 
+      "Position": "91"
+},
+{
+      "Document": "4", 
+      "Position": "122"
+},
+{
+      "Document": "4", 
+      "Position": "91"
+},
+{
+      "Document": "4", 
+      "Position": "11"
+}
+]
+},
+{
+    "Word": "we",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "58"
+},
+{
+      "Document": "1", 
+      "Position": "128"
+},
+{
+      "Document": "1", 
+      "Position": "110"
+},
+{
+      "Document": "4", 
+      "Position": "128"
+},
+{
+      "Document": "4", 
+      "Position": "110"
+},
+{
+      "Document": "4", 
+      "Position": "58"
+}
+]
+},
+{
+    "Word": "who",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "71"
+},
+{
+      "Document": "4", 
+      "Position": "71"
+}
+]
+},
+{
+    "Word": "well",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "74"
+},
+{
+      "Document": "4", 
+      "Position": "74"
+}
+]
+},
+{
+    "Word": "which",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "206"
+},
+{
+      "Document": "4", 
+      "Position": "206"
+}
+]
+},
+{
+    "Word": "versed",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "75"
+},
+{
+      "Document": "4", 
+      "Position": "75"
+}
+]
+},
+{
+    "Word": "walk",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "112"
+},
+{
+      "Document": "4", 
+      "Position": "112"
+}
+]
+},
+{
+    "Word": "variables",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "127"
+},
+{
+      "Document": "4", 
+      "Position": "127"
+}
+]
+},
+{
+    "Word": "various",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "131"
+},
+{
+      "Document": "4", 
+      "Position": "131"
+}
+]
+},
+{
+    "Word": "using",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "178"
+},
+{
+      "Document": "4", 
+      "Position": "178"
+}
+]
+},
+{
+    "Word": "useful",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "228"
+},
+{
+      "Document": "4", 
+      "Position": "228"
+}
+]
+},
+{
+    "Word": "use",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "232"
+},
+{
+      "Document": "4", 
+      "Position": "232"
+}
+]
+},
+{
+    "Word": "to",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "19"
+},
+{
+      "Document": "1", 
+      "Position": "212"
+},
+{
+      "Document": "1", 
+      "Position": "161"
+},
+{
+      "Document": "1", 
+      "Position": "117"
+},
+{
+      "Document": "1", 
+      "Position": "95"
+},
+{
+      "Document": "1", 
+      "Position": "86"
+},
+{
+      "Document": "1", 
+      "Position": "66"
+},
+{
+      "Document": "1", 
+      "Position": "48"
+},
+{
+      "Document": "3", 
+      "Position": "37"
+},
+{
+      "Document": "3", 
+      "Position": "24"
+},
+{
+      "Document": "3", 
+      "Position": "16"
+},
+{
+      "Document": "4", 
+      "Position": "212"
+},
+{
+      "Document": "4", 
+      "Position": "161"
+},
+{
+      "Document": "4", 
+      "Position": "117"
+},
+{
+      "Document": "4", 
+      "Position": "95"
+},
+{
+      "Document": "4", 
+      "Position": "86"
+},
+{
+      "Document": "4", 
+      "Position": "66"
+},
+{
+      "Document": "4", 
+      "Position": "48"
+},
+{
+      "Document": "4", 
+      "Position": "19"
+}
+]
+},
+{
+    "Word": "types",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "65"
+},
+{
+      "Document": "4", 
+      "Position": "65"
+}
+]
+},
+{
+    "Word": "tooling",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "143"
+},
+{
+      "Document": "4", 
+      "Position": "143"
+}
+]
+},
 {
     "Word": "today",
  "Info": [
@@ -218,165 +655,885 @@
       "Position": "4"
 }
 ]
-}, 
-{
-    "Word": "them",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "31"
 },
 {
-      "Document": "3", 
-      "Position": "31"
-}
-]
-}, 
-{
-    "Word": "they",
+    "Word": "chapter",
  "Info": [
 {
       "Document": "1", 
-      "Position": "43"
+      "Position": "2"
+},
+{
+      "Document": "1", 
+      "Position": "85"
+},
+{
+      "Document": "1", 
+      "Position": "37"
+},
+{
+      "Document": "4", 
+      "Position": "85"
+},
+{
+      "Document": "4", 
+      "Position": "37"
+},
+{
+      "Document": "4", 
+      "Position": "2"
 }
 ]
-}, 
+},
 {
-    "Word": "this",
+    "Word": "guide",
  "Info": [
 {
       "Document": "1", 
-      "Position": "45"
+      "Position": "4"
+},
+{
+      "Document": "4", 
+      "Position": "4"
 }
 ]
-}, 
+},
 {
-    "Word": "through",
+    "Word": "the",
  "Info": [
 {
       "Document": "1", 
-      "Position": "52"
-}
-]
-}, 
-{
-    "Word": "set",
- "Info": [
+      "Position": "7"
+},
 {
       "Document": "1", 
-      "Position": "22"
+      "Position": "214"
+},
+{
+      "Document": "1", 
+      "Position": "204"
+},
+{
+      "Document": "1", 
+      "Position": "200"
+},
+{
+      "Document": "1", 
+      "Position": "192"
+},
+{
+      "Document": "1", 
+      "Position": "155"
+},
+{
+      "Document": "1", 
+      "Position": "141"
+},
+{
+      "Document": "1", 
+      "Position": "115"
+},
+{
+      "Document": "1", 
+      "Position": "77"
 },
 {
       "Document": "1", 
       "Position": "55"
 },
 {
+      "Document": "1", 
+      "Position": "51"
+},
+{
+      "Document": "1", 
+      "Position": "39"
+},
+{
+      "Document": "1", 
+      "Position": "34"
+},
+{
+      "Document": "1", 
+      "Position": "30"
+},
+{
+      "Document": "1", 
+      "Position": "20"
+},
+{
       "Document": "3", 
-      "Position": "22"
+      "Position": "38"
+},
+{
+      "Document": "3", 
+      "Position": "19"
+},
+{
+      "Document": "3", 
+      "Position": "11"
+},
+{
+      "Document": "4", 
+      "Position": "214"
+},
+{
+      "Document": "4", 
+      "Position": "204"
+},
+{
+      "Document": "4", 
+      "Position": "200"
+},
+{
+      "Document": "4", 
+      "Position": "192"
+},
+{
+      "Document": "4", 
+      "Position": "155"
+},
+{
+      "Document": "4", 
+      "Position": "141"
+},
+{
+      "Document": "4", 
+      "Position": "115"
+},
+{
+      "Document": "4", 
+      "Position": "77"
+},
+{
+      "Document": "4", 
+      "Position": "55"
+},
+{
+      "Document": "4", 
+      "Position": "51"
+},
+{
+      "Document": "4", 
+      "Position": "39"
+},
+{
+      "Document": "4", 
+      "Position": "34"
+},
+{
+      "Document": "4", 
+      "Position": "30"
+},
+{
+      "Document": "4", 
+      "Position": "20"
+},
+{
+      "Document": "4", 
+      "Position": "7"
 }
 ]
-}, 
+},
+{
+    "Word": "them",
+ "Info": [
+{
+      "Document": "3", 
+      "Position": "31"
+}
+]
+},
+{
+    "Word": "process",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "8"
+},
+{
+      "Document": "4", 
+      "Position": "8"
+}
+]
+},
+{
+    "Word": "setting",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "10"
+},
+{
+      "Document": "1", 
+      "Position": "90"
+},
+{
+      "Document": "4", 
+      "Position": "90"
+},
+{
+      "Document": "4", 
+      "Position": "10"
+}
+]
+},
 {
     "Word": "syntax",
  "Info": [
 {
       "Document": "1", 
-      "Position": "62"
+      "Position": "23"
+},
+{
+      "Document": "4", 
+      "Position": "23"
 }
 ]
-}, 
+},
+{
+    "Word": "that",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "144"
+},
+{
+      "Document": "1", 
+      "Position": "197"
+},
+{
+      "Document": "1", 
+      "Position": "181"
+},
+{
+      "Document": "3", 
+      "Position": "28"
+},
+{
+      "Document": "3", 
+      "Position": "9"
+},
+{
+      "Document": "4", 
+      "Position": "197"
+},
+{
+      "Document": "4", 
+      "Position": "181"
+},
+{
+      "Document": "4", 
+      "Position": "144"
+}
+]
+},
+{
+    "Word": "system",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "164"
+},
+{
+      "Document": "1", 
+      "Position": "180"
+},
+{
+      "Document": "4", 
+      "Position": "180"
+},
+{
+      "Document": "4", 
+      "Position": "164"
+}
+]
+},
+{
+    "Word": "started",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "97"
+},
+{
+      "Document": "4", 
+      "Position": "97"
+}
+]
+},
+{
+    "Word": "steps",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "116"
+},
+{
+      "Document": "4", 
+      "Position": "116"
+}
+]
+},
+{
+    "Word": "some",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "139"
+},
+{
+      "Document": "4", 
+      "Position": "139"
+}
+]
+},
 {
     "Word": "standard",
  "Info": [
 {
       "Document": "1", 
-      "Position": "68"
+      "Position": "142"
+},
+{
+      "Document": "4", 
+      "Position": "142"
 }
 ]
-}, 
+},
 {
-    "Word": "provides",
+    "Word": "start",
  "Info": [
 {
       "Document": "1", 
-      "Position": "65"
+      "Position": "152"
+},
+{
+      "Document": "4", 
+      "Position": "152"
 }
 ]
-} 
+},
+{
+    "Word": "source",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "194"
+},
+{
+      "Document": "4", 
+      "Position": "194"
+}
+]
+},
+{
+    "Word": "readers",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "70"
+},
+{
+      "Document": "4", 
+      "Position": "70"
+}
+]
+},
+{
+    "Word": "review",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "89"
+},
+{
+      "Document": "4", 
+      "Position": "89"
+}
+]
+},
+{
+    "Word": "section",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "109"
+},
+{
+      "Document": "4", 
+      "Position": "109"
+}
+]
+},
+{
+    "Word": "set",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "121"
+},
+{
+      "Document": "1", 
+      "Position": "216"
+},
+{
+      "Document": "3", 
+      "Position": "22"
+},
+{
+      "Document": "4", 
+      "Position": "216"
+},
+{
+      "Document": "4", 
+      "Position": "121"
+}
+]
+},
+{
+    "Word": "release",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "158"
+},
+{
+      "Document": "4", 
+      "Position": "158"
+}
+]
+},
+{
+    "Word": "prompts",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "205"
+},
+{
+      "Document": "4", 
+      "Position": "205"
+}
+]
+},
+{
+    "Word": "programs",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "236"
+},
+{
+      "Document": "4", 
+      "Position": "236"
+}
+]
+},
+{
+    "Word": "programming",
+ "Info": [
+{
+      "Document": "3", 
+      "Position": "7"
+},
+{
+      "Document": "3", 
+      "Position": "41"
+}
+]
+},
 {
     "Word": "productive",
  "Info": [
 {
-      "Document": "1", 
+      "Document": "3", 
       "Position": "13"
-},
-{
-      "Document": "1", 
-      "Position": "33"
 },
 {
       "Document": "3", 
       "Position": "33"
+}
+]
 },
-{
-      "Document": "3", 
-      "Position": "13"
-}
-]
-}, 
-{
-    "Word": "make",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "10"
-},
-{
-      "Document": "3", 
-      "Position": "10"
-}
-]
-}, 
-{
-    "Word": "out",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "23"
-},
-{
-      "Document": "3", 
-      "Position": "23"
-}
-]
-}, 
-{
-    "Word": "needed",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "44"
-}
-]
-}, 
 {
     "Word": "of",
  "Info": [
 {
       "Document": "1", 
-      "Position": "56"
+      "Position": "9"
+},
+{
+      "Document": "1", 
+      "Position": "217"
+},
+{
+      "Document": "1", 
+      "Position": "140"
+},
+{
+      "Document": "1", 
+      "Position": "83"
+},
+{
+      "Document": "1", 
+      "Position": "33"
+},
+{
+      "Document": "4", 
+      "Position": "217"
+},
+{
+      "Document": "4", 
+      "Position": "140"
+},
+{
+      "Document": "4", 
+      "Position": "83"
+},
+{
+      "Document": "4", 
+      "Position": "33"
+},
+{
+      "Document": "4", 
+      "Position": "9"
 }
 ]
-}, 
+},
 {
-    "Word": "minimized",
+    "Word": "people",
  "Info": [
 {
       "Document": "1", 
-      "Position": "54"
+      "Position": "24"
+},
+{
+      "Document": "4", 
+      "Position": "24"
 }
 ]
-}, 
+},
+{
+    "Word": "primitive",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "63"
+},
+{
+      "Document": "4", 
+      "Position": "63"
+}
+]
+},
+{
+    "Word": "precompiled",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "187"
+},
+{
+      "Document": "4", 
+      "Position": "187"
+}
+]
+},
+{
+    "Word": "on",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "29"
+},
+{
+      "Document": "4", 
+      "Position": "29"
+}
+]
+},
+{
+    "Word": "order",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "47"
+},
+{
+      "Document": "1", 
+      "Position": "211"
+},
+{
+      "Document": "4", 
+      "Position": "211"
+},
+{
+      "Document": "4", 
+      "Position": "47"
+}
+]
+},
+{
+    "Word": "packages",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "220"
+},
+{
+      "Document": "1", 
+      "Position": "221"
+},
+{
+      "Document": "4", 
+      "Position": "221"
+},
+{
+      "Document": "4", 
+      "Position": "220"
+}
+]
+},
+{
+    "Word": "other",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "225"
+},
+{
+      "Document": "4", 
+      "Position": "225"
+}
+]
+},
+{
+    "Word": "own",
+ "Info": [
+{
+      "Document": "3", 
+      "Position": "4"
+}
+]
+},
+{
+    "Word": "out",
+ "Info": [
+{
+      "Document": "3", 
+      "Position": "23"
+}
+]
+},
+{
+    "Word": "options",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "132"
+},
+{
+      "Document": "4", 
+      "Position": "132"
+}
+]
+},
+{
+    "Word": "operating",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "163"
+},
+{
+      "Document": "4", 
+      "Position": "163"
+}
+]
+},
+{
+    "Word": "introduce",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "17"
+},
+{
+      "Document": "4", 
+      "Position": "17"
+}
+]
+},
+{
+    "Word": "language",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "21"
+},
+{
+      "Document": "1", 
+      "Position": "78"
+},
+{
+      "Document": "1", 
+      "Position": "35"
+},
+{
+      "Document": "3", 
+      "Position": "27"
+},
+{
+      "Document": "3", 
+      "Position": "20"
+},
+{
+      "Document": "3", 
+      "Position": "12"
+},
+{
+      "Document": "4", 
+      "Position": "78"
+},
+{
+      "Document": "4", 
+      "Position": "35"
+},
+{
+      "Document": "4", 
+      "Position": "21"
+}
+]
+},
+{
+    "Word": "mechanics",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "32"
+},
+{
+      "Document": "4", 
+      "Position": "32"
+}
+]
+},
+{
+    "Word": "most",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "40"
+},
+{
+      "Document": "1", 
+      "Position": "224"
+},
+{
+      "Document": "1", 
+      "Position": "159"
+},
+{
+      "Document": "4", 
+      "Position": "224"
+},
+{
+      "Document": "4", 
+      "Position": "159"
+},
+{
+      "Document": "4", 
+      "Position": "40"
+}
+]
+},
+{
+    "Word": "need",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "45"
+},
+{
+      "Document": "1", 
+      "Position": "102"
+},
+{
+      "Document": "4", 
+      "Position": "102"
+},
+{
+      "Document": "4", 
+      "Position": "45"
+}
+]
+},
+{
+    "Word": "not",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "183"
+},
+{
+      "Document": "4", 
+      "Position": "183"
+}
+]
+},
+{
+    "Word": "much",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "82"
+},
+{
+      "Document": "4", 
+      "Position": "82"
+}
+]
+},
+{
+    "Word": "minimal",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "209"
+},
+{
+      "Document": "4", 
+      "Position": "209"
+}
+]
+},
+{
+    "Word": "linux",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "172"
+},
+{
+      "Document": "4", 
+      "Position": "172"
+}
+]
+},
+{
+    "Word": "macos",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "174"
+},
+{
+      "Document": "4", 
+      "Position": "174"
+}
+]
+},
 {
     "Word": "matias",
  "Info": [
@@ -389,342 +1546,1267 @@
       "Position": "42"
 }
 ]
-} 
+},
 {
-    "Word": "language",
+    "Word": "make",
  "Info": [
 {
-      "Document": "1", 
-      "Position": "12"
-},
-{
-      "Document": "1", 
-      "Position": "27"
-},
-{
-      "Document": "1", 
-      "Position": "20"
-},
-{
       "Document": "3", 
-      "Position": "27"
-},
-{
-      "Document": "3", 
-      "Position": "20"
-},
-{
-      "Document": "3", 
-      "Position": "12"
+      "Position": "10"
 }
 ]
-}, 
-{
-    "Word": "let",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "30"
 },
-{
-      "Document": "3", 
-      "Position": "30"
-}
-]
-}, 
 {
     "Word": "losing",
  "Info": [
 {
-      "Document": "1", 
-      "Position": "35"
-},
-{
       "Document": "3", 
       "Position": "35"
 }
 ]
-}, 
+},
 {
     "Word": "lower",
  "Info": [
 {
-      "Document": "1", 
-      "Position": "39"
-},
-{
       "Document": "3", 
       "Position": "39"
 }
 ]
-}, 
+},
+{
+    "Word": "link",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "198"
+},
+{
+      "Document": "4", 
+      "Position": "198"
+}
+]
+},
+{
+    "Word": "librariesin",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "223"
+},
+{
+      "Document": "4", 
+      "Position": "223"
+}
+]
+},
+{
+    "Word": "languages",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "226"
+},
+{
+      "Document": "4", 
+      "Position": "226"
+}
+]
+},
+{
+    "Word": "let",
+ "Info": [
+{
+      "Document": "3", 
+      "Position": "30"
+}
+]
+},
 {
     "Word": "level",
  "Info": [
 {
-      "Document": "1", 
-      "Position": "40"
-},
-{
       "Document": "3", 
       "Position": "40"
 }
 ]
-}, 
-{
-    "Word": "keywords",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "57"
-}
-]
-} 
-{
-    "Word": "idioms",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "8"
 },
-{
-      "Document": "3", 
-      "Position": "8"
-}
-]
-}, 
-{
-    "Word": "in",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "18"
-},
-{
-      "Document": "1", 
-      "Position": "59"
-},
-{
-      "Document": "3", 
-      "Position": "18"
-}
-]
-}, 
 {
     "Word": "is",
  "Info": [
 {
       "Document": "1", 
-      "Position": "48"
+      "Position": "22"
+},
+{
+      "Document": "4", 
+      "Position": "22"
+},
+{
+      "Document": "4", 
+      "Position": "1"
 }
 ]
-}, 
+},
 {
-    "Word": "elegance",
+    "Word": "its",
  "Info": [
 {
-      "Document": "1", 
-      "Position": "5"
-},
-{
       "Document": "3", 
-      "Position": "5"
+      "Position": "3"
 }
 ]
-}, 
-{
-    "Word": "fun",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "15"
 },
 {
-      "Document": "3", 
-      "Position": "15"
-}
-]
-}, 
-{
-    "Word": "functions",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "60"
-}
-]
-} 
-{
-    "Word": "and",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "6"
-},
-{
-      "Document": "1", 
-      "Position": "61"
-},
-{
-      "Document": "1", 
-      "Position": "14"
-},
-{
-      "Document": "3", 
-      "Position": "14"
-},
-{
-      "Document": "3", 
-      "Position": "6"
-}
-]
-}, 
-{
-    "Word": "code",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "17"
-},
-{
-      "Document": "3", 
-      "Position": "17"
-}
-]
-}, 
-{
-    "Word": "designers",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "21"
-},
-{
-      "Document": "3", 
-      "Position": "21"
-}
-]
-}, 
-{
-    "Word": "create",
+    "Word": "have",
  "Info": [
 {
       "Document": "1", 
       "Position": "25"
 },
 {
-      "Document": "3", 
+      "Document": "1", 
+      "Position": "184"
+},
+{
+      "Document": "4", 
+      "Position": "184"
+},
+{
+      "Document": "4", 
       "Position": "25"
 }
 ]
-}, 
-{
-    "Word": "constructs",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "42"
-}
-]
-}, 
-{
-    "Word": "comprehensive",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "67"
-}
-]
-} 
-{
-    "Word": "be",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "32"
 },
 {
-      "Document": "3", 
-      "Position": "32"
-}
-]
-}, 
-{
-    "Word": "built",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "58"
-}
-]
-}, 
-{
-    "Word": "balance",
+    "Word": "in",
  "Info": [
 {
       "Document": "1", 
       "Position": "46"
+},
+{
+      "Document": "1", 
+      "Position": "233"
+},
+{
+      "Document": "1", 
+      "Position": "210"
+},
+{
+      "Document": "1", 
+      "Position": "107"
+},
+{
+      "Document": "1", 
+      "Position": "76"
+},
+{
+      "Document": "1", 
+      "Position": "54"
+},
+{
+      "Document": "3", 
+      "Position": "18"
+},
+{
+      "Document": "4", 
+      "Position": "233"
+},
+{
+      "Document": "4", 
+      "Position": "210"
+},
+{
+      "Document": "4", 
+      "Position": "107"
+},
+{
+      "Document": "4", 
+      "Position": "76"
+},
+{
+      "Document": "4", 
+      "Position": "54"
+},
+{
+      "Document": "4", 
+      "Position": "46"
 }
 ]
-}, 
+},
 {
-    "Word": "a",
+    "Word": "integrated",
  "Info": [
 {
       "Document": "1", 
-      "Position": "26"
+      "Position": "135"
+},
+{
+      "Document": "4", 
+      "Position": "135"
+}
+]
+},
+{
+    "Word": "installing",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "150"
+},
+{
+      "Document": "4", 
+      "Position": "150"
+}
+]
+},
+{
+    "Word": "install",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "213"
+},
+{
+      "Document": "4", 
+      "Position": "213"
+}
+]
+},
+{
+    "Word": "implementing",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "67"
+},
+{
+      "Document": "4", 
+      "Position": "67"
+}
+]
+},
+{
+    "Word": "if",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "175"
+},
+{
+      "Document": "4", 
+      "Position": "175"
+}
+]
+},
+{
+    "Word": "idioms",
+ "Info": [
+{
+      "Document": "3", 
+      "Position": "8"
+}
+]
+},
+{
+    "Word": "has",
+ "Info": [
+{
+      "Document": "3", 
+      "Position": "2"
+}
+]
+},
+{
+    "Word": "go",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "13"
 },
 {
       "Document": "1", 
-      "Position": "66"
+      "Position": "235"
 },
+{
+      "Document": "1", 
+      "Position": "218"
+},
+{
+      "Document": "1", 
+      "Position": "193"
+},
+{
+      "Document": "1", 
+      "Position": "156"
+},
+{
+      "Document": "1", 
+      "Position": "151"
+},
+{
+      "Document": "1", 
+      "Position": "147"
+},
+{
+      "Document": "1", 
+      "Position": "119"
+},
+{
+      "Document": "1", 
+      "Position": "99"
+},
+{
+      "Document": "2", 
+      "Position": "5"
+},
+{
+      "Document": "3", 
+      "Position": "1"
+},
+{
+      "Document": "4", 
+      "Position": "235"
+},
+{
+      "Document": "4", 
+      "Position": "218"
+},
+{
+      "Document": "4", 
+      "Position": "193"
+},
+{
+      "Document": "4", 
+      "Position": "156"
+},
+{
+      "Document": "4", 
+      "Position": "151"
+},
+{
+      "Document": "4", 
+      "Position": "147"
+},
+{
+      "Document": "4", 
+      "Position": "119"
+},
+{
+      "Document": "4", 
+      "Position": "99"
+},
+{
+      "Document": "4", 
+      "Position": "13"
+}
+]
+},
+{
+    "Word": "development",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "14"
+},
+{
+      "Document": "1", 
+      "Position": "136"
+},
+{
+      "Document": "1", 
+      "Position": "105"
+},
+{
+      "Document": "1", 
+      "Position": "93"
+},
+{
+      "Document": "4", 
+      "Position": "136"
+},
+{
+      "Document": "4", 
+      "Position": "105"
+},
+{
+      "Document": "4", 
+      "Position": "93"
+},
+{
+      "Document": "4", 
+      "Position": "14"
+}
+]
+},
+{
+    "Word": "environment",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "15"
+},
+{
+      "Document": "1", 
+      "Position": "137"
+},
+{
+      "Document": "1", 
+      "Position": "126"
+},
+{
+      "Document": "1", 
+      "Position": "106"
+},
+{
+      "Document": "1", 
+      "Position": "94"
+},
+{
+      "Document": "4", 
+      "Position": "137"
+},
+{
+      "Document": "4", 
+      "Position": "126"
+},
+{
+      "Document": "4", 
+      "Position": "106"
+},
+{
+      "Document": "4", 
+      "Position": "94"
+},
+{
+      "Document": "4", 
+      "Position": "15"
+}
+]
+},
+{
+    "Word": "fundamental",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "31"
+},
+{
+      "Document": "4", 
+      "Position": "31"
+}
+]
+},
+{
+    "Word": "get",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "96"
+},
+{
+      "Document": "4", 
+      "Position": "96"
+}
+]
+},
+{
+    "Word": "examples",
+ "Info": [
 {
       "Document": "1", 
       "Position": "53"
 },
 {
-      "Document": "3", 
-      "Position": "26"
+      "Document": "4", 
+      "Position": "53"
 }
 ]
-}, 
-{
-    "Word": "access",
- "Info": [
-{
-      "Document": "1", 
-      "Position": "36"
 },
 {
-      "Document": "3", 
-      "Position": "36"
-}
-]
-}, 
-{
-    "Word": "achieved",
+    "Word": "following",
  "Info": [
 {
       "Document": "1", 
-      "Position": "49"
+      "Position": "56"
+},
+{
+      "Document": "4", 
+      "Position": "56"
 }
 ]
-}, 
+},
 {
-    "Word": "also",
+    "Word": "from",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "62"
+},
+{
+      "Document": "1", 
+      "Position": "196"
+},
+{
+      "Document": "1", 
+      "Position": "167"
+},
+{
+      "Document": "4", 
+      "Position": "196"
+},
+{
+      "Document": "4", 
+      "Position": "167"
+},
+{
+      "Document": "4", 
+      "Position": "62"
+}
+]
+},
+{
+    "Word": "functional",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "104"
+},
+{
+      "Document": "4", 
+      "Position": "104"
+}
+]
+},
+{
+    "Word": "fun",
+ "Info": [
+{
+      "Document": "3", 
+      "Position": "15"
+}
+]
+},
+{
+    "Word": "for",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "69"
+},
+{
+      "Document": "1", 
+      "Position": "170"
+},
+{
+      "Document": "1", 
+      "Position": "133"
+},
+{
+      "Document": "4", 
+      "Position": "170"
+},
+{
+      "Document": "4", 
+      "Position": "133"
+},
+{
+      "Document": "4", 
+      "Position": "69"
+}
+]
+},
+{
+    "Word": "find",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "81"
+},
+{
+      "Document": "4", 
+      "Position": "81"
+}
+]
+},
+{
+    "Word": "follow",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "203"
+},
+{
+      "Document": "4", 
+      "Position": "203"
+}
+]
+},
+{
+    "Word": "exist",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "169"
+},
+{
+      "Document": "4", 
+      "Position": "169"
+}
+]
+},
+{
+    "Word": "execute",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "199"
+},
+{
+      "Document": "4", 
+      "Position": "199"
+}
+]
+},
+{
+    "Word": "everything",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "61"
+},
+{
+      "Document": "4", 
+      "Position": "61"
+}
+]
+},
+{
+    "Word": "entire",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "27"
+},
+{
+      "Document": "1", 
+      "Position": "215"
+},
+{
+      "Document": "4", 
+      "Position": "215"
+},
+{
+      "Document": "4", 
+      "Position": "27"
+}
+]
+},
+{
+    "Word": "download",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "118"
+},
+{
+      "Document": "1", 
+      "Position": "191"
+},
+{
+      "Document": "4", 
+      "Position": "191"
+},
+{
+      "Document": "4", 
+      "Position": "118"
+}
+]
+},
+{
+    "Word": "downloading",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "148"
+},
+{
+      "Document": "1", 
+      "Position": "154"
+},
+{
+      "Document": "4", 
+      "Position": "154"
+},
+{
+      "Document": "4", 
+      "Position": "148"
+}
+]
+},
+{
+    "Word": "elegance",
+ "Info": [
+{
+      "Document": "3", 
+      "Position": "5"
+}
+]
+},
+{
+    "Word": "discuss",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "130"
+},
+{
+      "Document": "4", 
+      "Position": "130"
+}
+]
+},
+{
+    "Word": "does",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "182"
+},
+{
+      "Document": "4", 
+      "Position": "182"
+}
+]
+},
+{
+    "Word": "covers",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "38"
+},
+{
+      "Document": "4", 
+      "Position": "38"
+}
+]
+},
+{
+    "Word": "data",
  "Info": [
 {
       "Document": "1", 
       "Position": "64"
+},
+{
+      "Document": "4", 
+      "Position": "64"
 }
 ]
-}, 
+},
+{
+    "Word": "designers",
+ "Info": [
+{
+      "Document": "3", 
+      "Position": "21"
+}
+]
+},
+{
+    "Word": "create",
+ "Info": [
+{
+      "Document": "3", 
+      "Position": "25"
+}
+]
+},
+{
+    "Word": "concepts",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "42"
+},
+{
+      "Document": "4", 
+      "Position": "42"
+}
+]
+},
+{
+    "Word": "cover",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "60"
+},
+{
+      "Document": "4", 
+      "Position": "60"
+}
+]
+},
+{
+    "Word": "concurrency",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "68"
+},
+{
+      "Document": "4", 
+      "Position": "68"
+}
+]
+},
+{
+    "Word": "core",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "219"
+},
+{
+      "Document": "4", 
+      "Position": "219"
+}
+]
+},
+{
+    "Word": "contain",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "227"
+},
+{
+      "Document": "4", 
+      "Position": "227"
+}
+]
+},
+{
+    "Word": "code",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "52"
+},
+{
+      "Document": "1", 
+      "Position": "229"
+},
+{
+      "Document": "1", 
+      "Position": "195"
+},
+{
+      "Document": "3", 
+      "Position": "17"
+},
+{
+      "Document": "4", 
+      "Position": "229"
+},
+{
+      "Document": "4", 
+      "Position": "195"
+},
+{
+      "Document": "4", 
+      "Position": "52"
+}
+]
+},
+{
+    "Word": "comes",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "145"
+},
+{
+      "Document": "4", 
+      "Position": "145"
+}
+]
+},
+{
+    "Word": "chapters",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "57"
+},
+{
+      "Document": "4", 
+      "Position": "57"
+}
+]
+},
+{
+    "Word": "and",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "16"
+},
+{
+      "Document": "1", 
+      "Position": "202"
+},
+{
+      "Document": "1", 
+      "Position": "173"
+},
+{
+      "Document": "1", 
+      "Position": "165"
+},
+{
+      "Document": "1", 
+      "Position": "149"
+},
+{
+      "Document": "1", 
+      "Position": "138"
+},
+{
+      "Document": "1", 
+      "Position": "125"
+},
+{
+      "Document": "1", 
+      "Position": "120"
+},
+{
+      "Document": "3", 
+      "Position": "14"
+},
+{
+      "Document": "3", 
+      "Position": "6"
+},
+{
+      "Document": "4", 
+      "Position": "202"
+},
+{
+      "Document": "4", 
+      "Position": "173"
+},
+{
+      "Document": "4", 
+      "Position": "165"
+},
+{
+      "Document": "4", 
+      "Position": "149"
+},
+{
+      "Document": "4", 
+      "Position": "138"
+},
+{
+      "Document": "4", 
+      "Position": "125"
+},
+{
+      "Document": "4", 
+      "Position": "120"
+},
+{
+      "Document": "4", 
+      "Position": "16"
+}
+]
+},
+{
+    "Word": "books",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "28"
+},
+{
+      "Document": "4", 
+      "Position": "28"
+}
+]
+},
+{
+    "Word": "by",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "153"
+},
+{
+      "Document": "4", 
+      "Position": "153"
+}
+]
+},
+{
+    "Word": "can",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "190"
+},
+{
+      "Document": "1", 
+      "Position": "231"
+},
+{
+      "Document": "4", 
+      "Position": "231"
+},
+{
+      "Document": "4", 
+      "Position": "190"
+}
+]
+},
+{
+    "Word": "called",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "222"
+},
+{
+      "Document": "4", 
+      "Position": "222"
+}
+]
+},
+{
+    "Word": "basic",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "41"
+},
+{
+      "Document": "4", 
+      "Position": "41"
+}
+]
+},
+{
+    "Word": "be",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "87"
+},
+{
+      "Document": "1", 
+      "Position": "208"
+},
+{
+      "Document": "3", 
+      "Position": "32"
+},
+{
+      "Document": "4", 
+      "Position": "208"
+},
+{
+      "Document": "4", 
+      "Position": "87"
+}
+]
+},
+{
+    "Word": "binary",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "157"
+},
+{
+      "Document": "1", 
+      "Position": "201"
+},
+{
+      "Document": "1", 
+      "Position": "188"
+},
+{
+      "Document": "4", 
+      "Position": "201"
+},
+{
+      "Document": "4", 
+      "Position": "188"
+},
+{
+      "Document": "4", 
+      "Position": "157"
+}
+]
+},
+{
+    "Word": "binaries",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "168"
+},
+{
+      "Document": "4", 
+      "Position": "168"
+}
+]
+},
+{
+    "Word": "are",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "72"
+},
+{
+      "Document": "1", 
+      "Position": "177"
+},
+{
+      "Document": "4", 
+      "Position": "177"
+},
+{
+      "Document": "4", 
+      "Position": "72"
+}
+]
+},
+{
+    "Word": "available",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "186"
+},
+{
+      "Document": "4", 
+      "Position": "186"
+}
+]
+},
+{
+    "Word": "appropriate",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "160"
+},
+{
+      "Document": "4", 
+      "Position": "160"
+}
+]
+},
+{
+    "Word": "architecture",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "166"
+},
+{
+      "Document": "4", 
+      "Position": "166"
+}
+]
+},
+{
+    "Word": "already",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "73"
+},
+{
+      "Document": "4", 
+      "Position": "73"
+}
+]
+},
+{
+    "Word": "an",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "185"
+},
+{
+      "Document": "4", 
+      "Position": "185"
+}
+]
+},
+{
+    "Word": "a",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "88"
+},
+{
+      "Document": "1", 
+      "Position": "179"
+},
+{
+      "Document": "1", 
+      "Position": "103"
+},
+{
+      "Document": "1", 
+      "Position": "92"
+},
+{
+      "Document": "3", 
+      "Position": "26"
+},
+{
+      "Document": "4", 
+      "Position": "179"
+},
+{
+      "Document": "4", 
+      "Position": "103"
+},
+{
+      "Document": "4", 
+      "Position": "92"
+},
+{
+      "Document": "4", 
+      "Position": "88"
+}
+]
+},
 {
     "Word": "aceval",
  "Info": [
 {
       "Document": "2", 
       "Position": "2"
+}
+]
+},
+{
+    "Word": "access",
+ "Info": [
+{
+      "Document": "3", 
+      "Position": "36"
 }
 ]
 } 

@@ -63,7 +63,6 @@ void readFile(char *fileName, Tree **tree, int fileID) {
                 saveInfoIntoTree(tree, info);
 
                 i = 0;
-
             } else {
                 character = tolower(character);
                 auxWord[i] = character;
@@ -74,7 +73,6 @@ void readFile(char *fileName, Tree **tree, int fileID) {
         fclose(buff);
         free(word);
         free(auxWord);
-
     } else {
         gotoxy(0, 0);
         printf(" ERROR OPENING '%s' \n ( FILE : %s - LINE : %d )\n", fileName, __FILE__, __LINE__);
@@ -101,6 +99,7 @@ Get fillStructField(char *word, int position, int fileID) {
 
 //* Verify if it's a letter or a number
 int isValidCharacter(char character) {
+
     return IsCharAlpha(character) || IsCharAlphaNumeric(character);
 }
 

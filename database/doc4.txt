@@ -1,1 +1,24 @@
-z
+is chapter will guide you through the process of setting up your Go 
+development environment and introduce you to the language is syntax. People 
+have written entire books on the fundamental mechanics of the language; this 
+chapter covers the most basic concepts you will need in order to work through 
+the code examples in the following chapters. We will cover everything from 
+primitive data types to implementing concurrency. For readers who are 
+already well versed in the language, you will find much of this chapter to be a 
+review.
+SETTING UP A DEVELOPMENT 
+ENVIRONMENT
+To get started with Go, you will need a functional development environment. In 
+this section, we will walk you through the steps to download Go and set up 
+your workspace and environment variables. We will discuss various options for 
+your integrated development environment and some of the standard tooling 
+that comes with Go.
+Downloading and Installing Go
+Start by downloading the Go binary release most appropriate to your 
+operating system and architecture from. Binaries exist 
+for Windows, Linux, and macOS. If you are using a system that does not have 
+an available precompiled binary, you can download the Go source code from 
+that link.
+Execute the binary and follow the prompts, which will be minimal, in order 
+to install the entire set of Go core packages. Packages, called librariesin 
+most other languages, contain useful code you can use in your Go programs.

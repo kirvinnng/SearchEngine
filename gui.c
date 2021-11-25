@@ -3,7 +3,7 @@
 #include "main.h"
 #include "operations.h"
 
-const int x = 40;
+const int x = 39;
 const int y = 5;
 
 int userChoice(Tree *tree, TreeInfo treeInfo) {
@@ -16,6 +16,7 @@ int userChoice(Tree *tree, TreeInfo treeInfo) {
     do {
 
         op = selectMenuOption();
+
         system("cls");
         setColor(WHITE);
 
@@ -39,6 +40,8 @@ int userChoice(Tree *tree, TreeInfo treeInfo) {
             case 5:
 
                 openHTML(tree);
+                continue;
+
             default:
                 return 0;
         }
@@ -61,9 +64,11 @@ int selectMenuOption() {
     do {
         enter = false;
         keyMovement(68, 21);
+
         menu(x, y);
 
         getch();
+        fflush(stdin);
 
         if (GetAsyncKeyState(0x26) & 0x8000) { //* ⬆ Up ⬆
             i = i > 0 ? i -= 1 : i;
@@ -146,21 +151,21 @@ void showTreeWithoutWord(Tree *tree) {
 void showNodeList(Node *list) {
     int _x = x;
     int _y = y + 10;
-    gotoxy(x, _y);
+    gotoxy(_x, _y);
 
     while (list) {
 
         gotoxy(_x + 1, _y);
-        printf(" Document :  %d            ", list->idDOC);
+        printf(" Document :  %d  ", list->idDOC);
 
         gotoxy(_x + 1, _y + 1);
-        printf(" Position :  %d            ", list->position);
+        printf(" Position :  %d  ", list->position);
 
         list = list->next;
         _y += 3;
     }
     setColor(WHITE);
-    gotoxy(x, _y - 1);
+    gotoxy(_x, _y - 1);
     printf(" ___________________________________________");
 }
 
@@ -183,7 +188,7 @@ int choiceDocument(TreeInfo treeInfo, int _x, int _y, int numDoc) {
             gotoxy(_x, _y + 1);
             printf(" ID INVALIDO \n\n");
             gotoxy(_x + 14, _y);
-            printf(" ");
+            printf("                           ");
         }
     } while (id < 1 || id > treeInfo.allDocument);
     gotoxy(_x, _y + 1);
@@ -233,36 +238,49 @@ int didYouMean(Tree *tree, char *word) {
 }
 
 void keyMovement(const int _x, const int _y) {
-    gotoxy(_x + 5, _y);
-    printf("  ____");
-    gotoxy(_x + 5, _y + 1);
-    printf(" ||", UP);
+
+    gotoxy(_x + 7, _y);
+    printf("____");
+    gotoxy(_x + 6, _y + 1);
+    printf("||");
     setColor(LIGHTCYAN);
+    gotoxy(_x + 8, _y + 1);
     printf("%c", UP);
     setColor(GREY);
-    printf(" ||", UP);
-    gotoxy(_x + 5, _y + 2);
-    printf(" ||__||");
-    gotoxy(_x, _y + 3);
-    printf("  ____|/__\\|____ ");
-    gotoxy(_x, _y + 4);
-    printf(" ||");
+    gotoxy(_x + 10, _y + 1);
+    printf("||");
+    gotoxy(_x + 6, _y + 2);
+    printf("||__||");
+    gotoxy(_x + 2, _y + 3);
+    printf("____|/__\\|____");
+    gotoxy(_x + 1, _y + 4);
+    printf("||");
     setColor(LIGHTCYAN);
-    printf("%c", ESC);
+
+    gotoxy(_x + 3, _y + 4);
+    // printf("%c", ESC); //! ----X----
+    printf("<-");
     setColor(GREY);
-    printf(" |||");
+    gotoxy(_x + 5, _y + 4);
+    printf("|||");
     setColor(LIGHTCYAN);
+    gotoxy(_x + 8, _y + 4);
     printf("%c", DOWN);
     setColor(GREY);
-    printf(" |||");
+    gotoxy(_x + 10, _y + 4);
+    printf("|||");
     setColor(LIGHTCYAN);
-    printf("%c", RIGHT);
+    // gotoxy(_x + 14, _y + 4);
+    // printf("%c", RIGHT);
+    gotoxy(_x + 13, _y + 4);
+    printf("->");
     setColor(GREY);
-    printf(" ||");
-    gotoxy(_x, _y + 5);
-    printf(" ||__|||__|||__||");
-    gotoxy(_x, _y + 6);
-    printf(" |/__\\|/__\\|/__\\|");
+    gotoxy(_x + 15, _y + 4);
+    printf("||");
+    gotoxy(_x + 1, _y + 5);
+    printf("||__|||__|||__||");
+    gotoxy(_x + 1, _y + 6);
+    printf("|/__\\|/__\\|/__\\|");
 }
 
 void verifyError(void *arg, char *fileName, const int line) {
