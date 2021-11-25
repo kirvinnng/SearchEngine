@@ -17,7 +17,7 @@ int userChoice(Tree *tree, TreeInfo treeInfo) {
 
         op = selectMenuOption();
         system("cls");
-        setColor(LIGHTCYAN);
+        setColor(WHITE);
 
         //* 🤩 User operations 🤩
         switch (op) {
@@ -55,7 +55,7 @@ int selectMenuOption() {
     int i = 0;
     bool enter = false;
     gotoxy(x - 1, y + 1);
-    setColor(WHITE);
+    setColor(LIGHTMAGENTA);
     printf(">");
 
     do {
@@ -84,7 +84,7 @@ int selectMenuOption() {
 
         gotoxy(x - 1, y + 1 + (i * 2));
 
-        setColor(WHITE);
+        setColor(LIGHTMAGENTA);
 
         printf(">");
 
@@ -94,7 +94,7 @@ int selectMenuOption() {
 
 void menu() {
 
-    setColor(LIGHTCYAN);
+    setColor(WHITE);
     gotoxy(x, y + 1);
     printf(" Buscar todas las apariciones de un t%crmino en alg%cn documento ", E_ACCENT, U_ACCENT);
     gotoxy(x, y + 3);
@@ -109,7 +109,7 @@ void menu() {
     printf(" Ver las palabras en el Navegador ");
     gotoxy(x, y + 13);
     printf(" SALIR ");
-    setColor(WHITE);
+    setColor(LIGHTCYAN);
     gotoxy(x, y + 14);
     printf("_______________________________________________________________________________");
 }
@@ -170,10 +170,12 @@ int choiceDocument(TreeInfo treeInfo, int _x, int _y, int numDoc) {
     do {
         gotoxy(_x, _y);
         if (numDoc == 0) {
-            printf(" Documento  %c ", COM);
+            printf(" Documento  ");
+            inputSign(LIGHTCYAN);
         } else {
 
-            printf(" %d. Documento  %c ", numDoc, COM);
+            printf(" %d. Documento  ", numDoc);
+            inputSign(LIGHTCYAN);
         }
         fflush(stdin);
         scanf("%d", &id);
@@ -191,6 +193,12 @@ int choiceDocument(TreeInfo treeInfo, int _x, int _y, int numDoc) {
     return id;
 }
 
+void inputSign(int valueColor) {
+    setColor(valueColor);
+    printf("> ");
+    setColor(WHITE);
+}
+
 int didYouMean(Tree *tree, char *word) {
 
     WordSimilarity ws = _didYouMean(tree, word);
@@ -201,12 +209,13 @@ int didYouMean(Tree *tree, char *word) {
         char confirmation = 'n';
         printf(" No se encontro  '%s'", ws.originalWord);
 
-        gotoxy(x - 36, y + 2);
-        printf(" %c Quisiste decir '%s' ? s / n  ", QUESTION, ws.similarWord);
         gotoxy(x - 36, y + 3);
-        printf(" %c ", COM);
+        printf("%cQuisiste decir '%s'? ( s / n ) ", QUESTION, ws.similarWord);
+        gotoxy(x - 36, y + 4);
+        inputSign(LIGHTCYAN);
         fflush(stdin);
         scanf("%c", &confirmation);
+        confirmation = tolower(confirmation);
         if (confirmation != 's') {
             return -2;
         }
@@ -227,13 +236,29 @@ void keyMovement(const int _x, const int _y) {
     gotoxy(_x + 5, _y);
     printf("  ____");
     gotoxy(_x + 5, _y + 1);
-    printf(" ||%c ||", UP);
+    printf(" ||", UP);
+    setColor(LIGHTCYAN);
+    printf("%c", UP);
+    setColor(GREY);
+    printf(" ||", UP);
     gotoxy(_x + 5, _y + 2);
     printf(" ||__||");
     gotoxy(_x, _y + 3);
     printf("  ____|/__\\|____ ");
     gotoxy(_x, _y + 4);
-    printf(" ||%c |||%c |||%c ||", ESC, DOWN, RIGHT);
+    printf(" ||");
+    setColor(LIGHTCYAN);
+    printf("%c", ESC);
+    setColor(GREY);
+    printf(" |||");
+    setColor(LIGHTCYAN);
+    printf("%c", DOWN);
+    setColor(GREY);
+    printf(" |||");
+    setColor(LIGHTCYAN);
+    printf("%c", RIGHT);
+    setColor(GREY);
+    printf(" ||");
     gotoxy(_x, _y + 5);
     printf(" ||__|||__|||__||");
     gotoxy(_x, _y + 6);

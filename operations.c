@@ -16,14 +16,15 @@ void operation1(Tree *tree, TreeInfo treeInfo) {
     gotoxy(x, y - 4);
 
     printf(" Buscar todas las apariciones de un t%crmino en alg%cn documento ", E_ACCENT, U_ACCENT);
-    gotoxy(x, y);
-    printf(" Palabra  %c  ", COM);
+    gotoxy(x, y + 1);
+    printf(" Palabra  ", COM);
+    inputSign(LIGHTCYAN);
     fflush(stdin);
     scanf("%s", word);
 
     toLowerCase(word);
 
-    id = choiceDocument(treeInfo, x, y + 2, 0);
+    id = choiceDocument(treeInfo, x, y + 3, 0);
 
     if (didYouMean(tree, word) == -1) {
         return;
@@ -32,14 +33,14 @@ void operation1(Tree *tree, TreeInfo treeInfo) {
     auxID = findWordByDoc(tree, word, id);
 
     if (auxID) {
-        gotoxy(x, y + 4);
+        gotoxy(x, y + 5);
         printf(" Se encontro el termino '%s' en el documento Nro. %d.\n", word, id);
         gotoxy(x, y + 8);
         setColor(WHITE);
         printf(" ___________________________________________");
         showTreeWithoutWord(auxID);
     } else if (!auxID) {
-        gotoxy(x, y + 4);
+        gotoxy(x, y + 5);
         printf(" No se encontro el termino '%s' en el documento Nro. %d.\n", word, id);
     }
 }
@@ -53,8 +54,10 @@ void operation2(Tree *tree, TreeInfo treeInfo) {
     gotoxy(x, y - 4);
     printf(" Buscar todas las apariciones de un t%crmino en un documento y otro ", E_ACCENT);
 
-    gotoxy(x, y);
-    printf(" Palabra  %c  ", COM);
+    gotoxy(x, y + 1);
+    printf(" Palabra  ", COM);
+    inputSign(LIGHTCYAN);
+    inputSign(LIGHTCYAN);
     fflush(stdin);
     scanf("%s", word);
     toLowerCase(word);
@@ -91,10 +94,11 @@ void operation3(Tree *tree, TreeInfo treeInfo) {
     gotoxy(x, y - 4);
     printf(" Buscar la aparici%cn de m%cs de un t%crmino en el mismo documento ", O_ACCENT, A_ACCENT, E_ACCENT);
 
-    id = choiceDocument(treeInfo, x, y, 0);
+    id = choiceDocument(treeInfo, x, y + 1, 0);
 
-    gotoxy(x, y + 2);
-    printf(" Palabra  %c  ", COM);
+    gotoxy(x, y + 3);
+    printf(" Palabra  ", COM);
+    inputSign(LIGHTCYAN);
     fflush(stdin);
     scanf("%s", word);
     toLowerCase(word);
@@ -129,28 +133,29 @@ void operation4(Tree *tree, TreeInfo treeInfo) {
     gotoxy(x, y - 4);
     printf(" Buscar una frase completa");
 
-    gotoxy(x, y);
-    printf(" Frase  %c  ", COM);
+    gotoxy(x, y + 1);
+    printf(" Frase  ", COM);
+    inputSign(LIGHTCYAN);
     fflush(stdin);
     gets(phrase);
     toLowerCase(phrase);
 
-    id = choiceDocument(treeInfo, x, y + 2, 0);
+    id = choiceDocument(treeInfo, x, y + 3, 0);
 
     SearchResult result = searchPhraseOnTree(tree, phrase, id);
 
     if (!result.foundAllWords) {
-        gotoxy(x, y + 4);
+        gotoxy(x, y + 5);
         printf(" No se encontraron todas las palabras de la frase '%s'. ", phrase);
     } else {
-        gotoxy(x, y + 4);
+        gotoxy(x, y + 5);
         printf(" Se encontraron todas las palabras de la frase '%s' ", phrase);
         if (result.allWordsInOrder) {
-            gotoxy(x, y + 5);
+            gotoxy(x, y + 6);
             printf(" y se encontraron en orden en el documento %d a partir de la posicion %d.\n", id,
                    result.wordInitialPosition);
         } else {
-            gotoxy(x, y + 5);
+            gotoxy(x, y + 6);
             printf(" pero no se encontraron en orden.\n");
         }
     }
@@ -166,11 +171,11 @@ void operation5(Tree *tree, TreeInfo treeInfo) {
     gotoxy(x, y - 4);
     printf(" Buscar la palabra de m%cs frecuencia que aparece en alguno de los documentos ", A_ACCENT);
 
-    id = choiceDocument(treeInfo, x, y, 0);
+    id = choiceDocument(treeInfo, x, y + 1, 0);
 
     FrequentWord fw = frequentWordByDocumentID(tree, id);
 
-    gotoxy(x, y + 2);
+    gotoxy(x, y + 3);
 
     printf(" La palabra '%s' tiene la frecuencia mas alta con %d %s \n", fw.word, fw.frequency,
            (fw.frequency == 1) ? "aparicion" : "apariciones");
