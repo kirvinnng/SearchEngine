@@ -37,6 +37,13 @@ void createJSON(Tree *tree) {
     closeFile(buff);
 }
 
+void createFiles(Tree *tree) {
+
+    createBinary(tree);
+    createTXT(tree);
+    createJSON(tree);
+}
+
 //* Open file once to avoid reopening multiple times during recursion.
 FILE *openFile(char *extensionFile, char *mode) {
 
@@ -112,9 +119,9 @@ void listToFile(Node *list, char *word, FILE *buff, char *extensionFile, Tree *t
 }
 
 //* Create the header of the file, specifying the word and the count of tree nodes.
-void printFirstPart(int extension, FILE *buff, char *word) {
+void printFirstPart(int extensionID, FILE *buff, char *word) {
 
-    switch (extension) {
+    switch (extensionID) {
         case HTML:
             fprintf(buff, "<h2 style=\"font-family:Georgia; color:#FD4961\">WORD : %s </h>", word);
             fprintf(buff, "<h2 style=\"font-family:Monospace; padding:20px ; color:#9A60FF\">");
@@ -132,8 +139,8 @@ void printFirstPart(int extension, FILE *buff, char *word) {
 }
 
 //* Create the body of the file, specifying the number where the word is allocated and its position.
-void printMiddlePart(int extension, FILE *buff, Get info, Node *list) {
-    switch (extension) {
+void printMiddlePart(int extensionID, FILE *buff, Get info, Node *list) {
+    switch (extensionID) {
         case HTML:
             fprintf(buff, "Document : %d     Position : %d<br>", info.idDOC, info.position);
             break;
@@ -152,9 +159,9 @@ void printMiddlePart(int extension, FILE *buff, Get info, Node *list) {
 }
 
 //* Create the footer of the file, just line breakers.
-void printLastPart(int extension, FILE *buff) {
+void printLastPart(int extensionID, FILE *buff) {
 
-    switch (extension) {
+    switch (extensionID) {
         case HTML:
             fprintf(buff, "</h2>");
             break;

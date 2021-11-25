@@ -2,6 +2,7 @@
 
 #include "gui.h"
 #include "main.h"
+#include "operations.h"
 #include "read_file.h"
 
 Node *createNodeList(int idDOC, int position) {
@@ -219,21 +220,35 @@ SearchResult searchPhraseOnTree(Tree *tree, char *phrase, int id) {
 
     Tree *treeWords[400];
     int found = 1;
+    int j = 0;
+    Tree *treeWithID;
+
     for (int i = 0; found && i < counter; i++) {
         int res = didYouMean(tree, tokens[i]);
-        switch(res){
-            case -1 : found: 0; break; /* NOT FOUND || TOKEN NOT CHANGED */
-            case 0 : /* TOKEN EXIST */
-            case 1 : /* TOKEN CHANGED BY 'DID YOU MEAN' */
-            default: treeWords[i] = findWordByDoc(tree, tokens[i], id); break;
+
+        switch (res) {
+            case -1:
+                found = 0;
+                break; /* NOT FOUND || TOKEN NOT CHANGED */
+            case 0:    /* TOKEN EXIST */
+            case 1:    /* TOKEN CHANGED BY 'DID YOU MEAN' */
+            default:
+
+                treeWords[j] = findWordByDoc(tree, tokens[i], id);
+                if (treeWords[j++] == NULL) {
+                    found = 0;
+                }
+                break;
         }
     }
-    
+
     if (!found)
         return (SearchResult){.foundAllWords = false, .allWordsInOrder = false, .wordInitialPosition = -1};
 
     int exist = 0;
+
     int initialPos = treeWords[0]->list->position;
+
     for (int i = 0; !exist && i < treeWords[0]->length; i++) {
         exist = 1;
         initialPos = getListPositionAtIndex(treeWords[0]->list, i);
@@ -274,15 +289,20 @@ int levenshtein(char *s1, char *s2) {
 
     t1 = strlen(s1);
     t2 = strlen(s2);
-    if (t1 == 0) return (t2);
-    if (t2 == 0) return (t1);
+    if (t1 == 0)
+        return (t2);
+    if (t2 == 0)
+        return (t1);
     ancho = t1 + 1;
 
     m = (int *)malloc(sizeof(int) * (t1 + 1) * (t2 + 1));
-    if (m == NULL) return (-1);
+    if (m == NULL)
+        return (-1);
 
-    for (i = 0; i <= t1; i++) m[i] = i;
-    for (j = 0; j <= t2; j++) m[j * ancho] = j;
+    for (i = 0; i <= t1; i++)
+        m[i] = i;
+    for (j = 0; j <= t2; j++)
+        m[j * ancho] = j;
 
     for (i = 1; i <= t1; i++)
         for (j = 1; j <= t2; j++) {
@@ -290,8 +310,8 @@ int levenshtein(char *s1, char *s2) {
                 costo = 0;
             else
                 costo = 1;
-            m[j * ancho + i] = min(min(m[j * ancho + i - 1] + 1, m[(j - 1) * ancho + i] + 1),
-                                   m[(j - 1) * ancho + i - 1] + costo);
+            m[j * ancho + i] =
+                min(min(m[j * ancho + i - 1] + 1, m[(j - 1) * ancho + i] + 1), m[(j - 1) * ancho + i - 1] + costo);
         }
 
     res = m[t2 * ancho + t1];
@@ -299,11 +319,30 @@ int levenshtein(char *s1, char *s2) {
     return (res);
 }
 
-WordSimilarity _didYouMean(Tree *tree, char *word){
+void toLowerCase(char *str) {
+
+    int valueA = 65;
+    int valueZ = 90;
+
+    while (*str != '\0') {
+
+        if (*str >= valueA && *str <= valueZ) {
+
+            *str = *str + 32;
+        }
+        str++;
+    }
+}
+
+WordSimilarity minWordSimilarity(WordSimilarity a, WordSimilarity b) {
+    return (a.distance < b.distance) ? a : b;
+}
+
+WordSimilarity _didYouMean(Tree *tree, char *word) {
     WordSimilarity wsHead;
     WordSimilarity wsLeft;
     WordSimilarity wsRight;
-    if(tree){
+    if (tree) {
         wsLeft = _didYouMean(tree->left, word);
         wsRight = _didYouMean(tree->right, word);
 
@@ -311,10 +350,9 @@ WordSimilarity _didYouMean(Tree *tree, char *word){
         strcpy(wsHead.similarWord, tree->word);
         wsHead.distance = levenshtein(tree->word, word);
 
-        return wsHead.distance < wsLeft.distance
-                   ? (wsHead.distance < wsRight.distance ? wsHead : wsRight)
-                   : (wsLeft.distance < wsRight.distance ? wsLeft : wsRight);
+        return minWordSimilarity(minWordSimilarity(wsHead, wsLeft), wsRight);
     } else {
+
         return (WordSimilarity){.originalWord = "", .similarWord = "", .distance = 100};
     }
 }

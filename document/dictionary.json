@@ -1,1608 +1,732 @@
 [
-      {
-            "Word": "go",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "0"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "638"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "571"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "353"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "638"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "571"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "353"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "0"
-                  },
-                  {
-                        "Document": "4",
-                        "Position": "0"
-                  }
-            ]
-      },
-      {
-            "Word": "has",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "3"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "3"
-                  }
-            ]
-      },
-      {
-            "Word": "its",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "7"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "7"
-                  }
-            ]
-      },
-      {
-            "Word": "own",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "11"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "11"
-                  }
-            ]
-      },
-      {
-            "Word": "programming",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "28"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "227"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "227"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "28"
-                  }
-            ]
-      },
-      {
-            "Word": "that",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "47"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "783"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "612"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "582"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "152"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "783"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "612"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "582"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "152"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "47"
-                  }
-            ]
-      },
-      {
-            "Word": "the",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "57"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "817"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "771"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "737"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "716"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "672"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "437"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "403"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "211"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "100"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "817"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "771"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "737"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "716"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "672"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "437"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "403"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "211"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "100"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "57"
-                  }
-            ]
-      },
-      {
-            "Word": "to",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "89"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "523"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "472"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "208"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "131"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "523"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "472"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "208"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "131"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "89"
-                  }
-            ]
-      },
-      {
-            "Word": "would",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "157"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "157"
-                  }
-            ]
-      },
-      {
-            "Word": "without",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "186"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "186"
-                  }
-            ]
-      },
-      {
-            "Word": "world",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "486"
-                  },
-                  {
-                        "Document": "2",
-                        "Position": "14"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "486"
-                  },
-                  {
-                        "Document": "4",
-                        "Position": "3"
-                  }
-            ]
-      },
-      {
-            "Word": "web",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "492"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "720"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "720"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "492"
-                  }
-            ]
-      },
-      {
-            "Word": "will",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "548"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "548"
-                  }
-            ]
-      },
-      {
-            "Word": "window",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "830"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "830"
-                  }
-            ]
-      },
-      {
-            "Word": "we",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "545"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "545"
-                  }
-            ]
-      },
-      {
-            "Word": "today",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "666"
-                  },
-                  {
-                        "Document": "2",
-                        "Position": "20"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "666"
-                  }
-            ]
-      },
-      {
-            "Word": "them",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "167"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "167"
-                  }
-            ]
-      },
-      {
-            "Word": "they",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "250"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "250"
-                  }
-            ]
-      },
-      {
-            "Word": "this",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "262"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "530"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "530"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "262"
-                  }
-            ]
-      },
-      {
-            "Word": "through",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "287"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "287"
-                  }
-            ]
-      },
-      {
-            "Word": "then",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "799"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "799"
-                  }
-            ]
-      },
-      {
-            "Word": "set",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "123"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "307"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "307"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "123"
-                  }
-            ]
-      },
-      {
-            "Word": "syntax",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "346"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "346"
-                  }
-            ]
-      },
-      {
-            "Word": "term",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "766"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "766"
-                  }
-            ]
-      },
-      {
-            "Word": "terminal",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "821"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "821"
-                  }
-            ]
-      },
-      {
-            "Word": "standard",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "386"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "407"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "407"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "386"
-                  }
-            ]
-      },
-      {
-            "Word": "provides",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "361"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "424"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "424"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "361"
-                  }
-            ]
-      },
-      {
-            "Word": "real",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "481"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "481"
-                  }
-            ]
-      },
-      {
-            "Word": "see",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "526"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "526"
-                  }
-            ]
-      },
-      {
-            "Word": "review",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "553"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "553"
-                  }
-            ]
-      },
-      {
-            "Word": "search",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "759"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "759"
-                  }
-            ]
-      },
-      {
-            "Word": "pulls",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "684"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "684"
-                  }
-            ]
-      },
-      {
-            "Word": "programs",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "514"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "641"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "641"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "514"
-                  }
-            ]
-      },
-      {
-            "Word": "productive",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "70"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "175"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "175"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "70"
-                  }
-            ]
-      },
-      {
-            "Word": "programmers",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "455"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "455"
-                  }
-            ]
-      },
-      {
-            "Word": "program",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "574"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "676"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "676"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "574"
-                  }
-            ]
-      },
-      {
-            "Word": "packages",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "446"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "446"
-                  }
-            ]
-      },
-      {
-            "Word": "make",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "52"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "52"
-                  }
-            ]
-      },
-      {
-            "Word": "out",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "127"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "127"
-                  }
-            ]
-      },
-      {
-            "Word": "needed",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "255"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "255"
-                  }
-            ]
-      },
-      {
-            "Word": "of",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "311"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "311"
-                  }
-            ]
-      },
-      {
-            "Word": "network",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "500"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "500"
-                  }
-            ]
-      },
-      {
-            "Word": "minimized",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "297"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "297"
-                  }
-            ]
-      },
-      {
-            "Word": "need",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "467"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "467"
-                  }
-            ]
-      },
-      {
-            "Word": "many",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "633"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "633"
-                  }
-            ]
-      },
-      {
-            "Word": "matches",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "788"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "788"
-                  }
-            ]
-      },
-      {
-            "Word": "matias",
-            "Info": [
-                  {
-                        "Document": "2",
-                        "Position": "0"
-                  }
-            ]
-      },
-      {
-            "Word": "language",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "61"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "143"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "104"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "143"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "104"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "61"
-                  }
-            ]
-      },
-      {
-            "Word": "let",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "163"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "163"
-                  }
-            ]
-      },
-      {
-            "Word": "losing",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "194"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "194"
-                  }
-            ]
-      },
-      {
-            "Word": "lower",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "215"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "215"
-                  }
-            ]
-      },
-      {
-            "Word": "level",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "221"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "221"
-                  }
-            ]
-      },
-      {
-            "Word": "library",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "395"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "416"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "416"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "395"
-                  }
-            ]
-      },
-      {
-            "Word": "keywords",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "314"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "314"
-                  }
-            ]
-      },
-      {
-            "Word": "idioms",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "40"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "40"
-                  }
-            ]
-      },
-      {
-            "Word": "in",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "97"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "814"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "630"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "535"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "329"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "814"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "630"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "535"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "329"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "97"
-                  }
-            ]
-      },
-      {
-            "Word": "is",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "275"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "796"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "796"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "275"
-                  }
-            ]
-      },
-      {
-            "Word": "implements",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "587"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "587"
-                  }
-            ]
-      },
-      {
-            "Word": "elegance",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "15"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "15"
-                  }
-            ]
-      },
-      {
-            "Word": "fun",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "85"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "85"
-                  }
-            ]
-      },
-      {
-            "Word": "functions",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "332"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "332"
-                  }
-            ]
-      },
-      {
-            "Word": "functionality",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "598"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "598"
-                  }
-            ]
-      },
-      {
-            "Word": "found",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "624"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "624"
-                  }
-            ]
-      },
-      {
-            "Word": "from",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "711"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "711"
-                  }
-            ]
-      },
-      {
-            "Word": "feeds",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "705"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "705"
-                  }
-            ]
-      },
-      {
-            "Word": "and",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "24"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "724"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "496"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "342"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "81"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "724"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "496"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "342"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "81"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "24"
-                  }
-            ]
-      },
-      {
-            "Word": "code",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "92"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "92"
-                  }
-            ]
-      },
-      {
-            "Word": "designers",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "113"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "113"
-                  }
-            ]
-      },
-      {
-            "Word": "developed",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "656"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "656"
-                  }
-            ]
-      },
-      {
-            "Word": "different",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "690"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "690"
-                  }
-            ]
-      },
-      {
-            "Word": "displayed",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "804"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "804"
-                  }
-            ]
-      },
-      {
-            "Word": "create",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "134"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "134"
-                  }
-            ]
-      },
-      {
-            "Word": "data",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "700"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "700"
-                  }
-            ]
-      },
-      {
-            "Word": "constructs",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "239"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "239"
-                  }
-            ]
-      },
-      {
-            "Word": "core",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "441"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "441"
-                  }
-            ]
-      },
-      {
-            "Word": "content",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "741"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "775"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "775"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "741"
-                  }
-            ]
-      },
-      {
-            "Word": "comprehensive",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "372"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "372"
-                  }
-            ]
-      },
-      {
-            "Word": "complete",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "562"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "562"
-                  }
-            ]
-      },
-      {
-            "Word": "compares",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "728"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "728"
-                  }
-            ]
-      },
-      {
-            "Word": "be",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "172"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "621"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "621"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "172"
-                  }
-            ]
-      },
-      {
-            "Word": "built",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "323"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "323"
-                  }
-            ]
-      },
-      {
-            "Word": "can",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "617"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "617"
-                  }
-            ]
-      },
-      {
-            "Word": "build",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "475"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "475"
-                  }
-            ]
-      },
-      {
-            "Word": "being",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "650"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "650"
-                  }
-            ]
-      },
-      {
-            "Word": "balance",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "267"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "267"
-                  }
-            ]
-      },
-      {
-            "Word": "based",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "508"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "508"
-                  }
-            ]
-      },
-      {
-            "Word": "a",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "141"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "757"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "560"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "370"
-                  },
-                  {
-                        "Document": "1",
-                        "Position": "295"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "757"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "560"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "370"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "295"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "141"
-                  }
-            ]
-      },
-      {
-            "Word": "access",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "201"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "201"
-                  }
-            ]
-      },
-      {
-            "Word": "achieved",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "278"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "278"
-                  }
-            ]
-      },
-      {
-            "Word": "also",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "356"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "356"
-                  }
-            ]
-      },
-      {
-            "Word": "all",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "433"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "433"
-                  }
-            ]
-      },
-      {
-            "Word": "action",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "538"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "538"
-                  }
-            ]
-      },
-      {
-            "Word": "against",
-            "Info": [
-                  {
-                        "Document": "1",
-                        "Position": "749"
-                  },
-                  {
-                        "Document": "3",
-                        "Position": "749"
-                  }
-            ]
-      },
-      {
-            "Word": "aceval",
-            "Info": [
-                  {
-                        "Document": "2",
-                        "Position": "7"
-                  }
-            ]
-      }
+{
+    "Word": "go",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "1"
+},
+{
+      "Document": "1", 
+      "Position": "69"
+},
+{
+      "Document": "1", 
+      "Position": "63"
+},
+{
+      "Document": "1", 
+      "Position": "51"
+},
+{
+      "Document": "1", 
+      "Position": "50"
+},
+{
+      "Document": "1", 
+      "Position": "47"
+},
+{
+      "Document": "2", 
+      "Position": "5"
+},
+{
+      "Document": "3", 
+      "Position": "1"
+}
+]
+}, 
+{
+    "Word": "has",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "2"
+},
+{
+      "Document": "3", 
+      "Position": "2"
+}
+]
+}, 
+{
+    "Word": "its",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "3"
+},
+{
+      "Document": "3", 
+      "Position": "3"
+}
+]
+}, 
+{
+    "Word": "own",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "4"
+},
+{
+      "Document": "3", 
+      "Position": "4"
+}
+]
+}, 
+{
+    "Word": "programming",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "7"
+},
+{
+      "Document": "1", 
+      "Position": "41"
+},
+{
+      "Document": "3", 
+      "Position": "41"
+},
+{
+      "Document": "3", 
+      "Position": "7"
+}
+]
+}, 
+{
+    "Word": "that",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "9"
+},
+{
+      "Document": "1", 
+      "Position": "28"
+},
+{
+      "Document": "3", 
+      "Position": "28"
+},
+{
+      "Document": "3", 
+      "Position": "9"
+}
+]
+}, 
+{
+    "Word": "the",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "11"
+},
+{
+      "Document": "1", 
+      "Position": "38"
+},
+{
+      "Document": "1", 
+      "Position": "19"
+},
+{
+      "Document": "3", 
+      "Position": "38"
+},
+{
+      "Document": "3", 
+      "Position": "19"
+},
+{
+      "Document": "3", 
+      "Position": "11"
+}
+]
+}, 
+{
+    "Word": "to",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "16"
+},
+{
+      "Document": "1", 
+      "Position": "37"
+},
+{
+      "Document": "1", 
+      "Position": "24"
+},
+{
+      "Document": "3", 
+      "Position": "37"
+},
+{
+      "Document": "3", 
+      "Position": "24"
+},
+{
+      "Document": "3", 
+      "Position": "16"
+}
+]
+}, 
+{
+    "Word": "would",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "29"
+},
+{
+      "Document": "3", 
+      "Position": "29"
+}
+]
+}, 
+{
+    "Word": "without",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "34"
+},
+{
+      "Document": "3", 
+      "Position": "34"
+}
+]
+}, 
+{
+    "Word": "world",
+ "Info": [
+{
+      "Document": "2", 
+      "Position": "3"
+}
+]
+}, 
+{
+    "Word": "today",
+ "Info": [
+{
+      "Document": "2", 
+      "Position": "4"
+}
+]
+}, 
+{
+    "Word": "them",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "31"
+},
+{
+      "Document": "3", 
+      "Position": "31"
+}
+]
+}, 
+{
+    "Word": "they",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "43"
+}
+]
+}, 
+{
+    "Word": "this",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "45"
+}
+]
+}, 
+{
+    "Word": "through",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "52"
+}
+]
+}, 
+{
+    "Word": "set",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "22"
+},
+{
+      "Document": "1", 
+      "Position": "55"
+},
+{
+      "Document": "3", 
+      "Position": "22"
+}
+]
+}, 
+{
+    "Word": "syntax",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "62"
+}
+]
+}, 
+{
+    "Word": "standard",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "68"
+}
+]
+}, 
+{
+    "Word": "provides",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "65"
+}
+]
+} 
+{
+    "Word": "productive",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "13"
+},
+{
+      "Document": "1", 
+      "Position": "33"
+},
+{
+      "Document": "3", 
+      "Position": "33"
+},
+{
+      "Document": "3", 
+      "Position": "13"
+}
+]
+}, 
+{
+    "Word": "make",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "10"
+},
+{
+      "Document": "3", 
+      "Position": "10"
+}
+]
+}, 
+{
+    "Word": "out",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "23"
+},
+{
+      "Document": "3", 
+      "Position": "23"
+}
+]
+}, 
+{
+    "Word": "needed",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "44"
+}
+]
+}, 
+{
+    "Word": "of",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "56"
+}
+]
+}, 
+{
+    "Word": "minimized",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "54"
+}
+]
+}, 
+{
+    "Word": "matias",
+ "Info": [
+{
+      "Document": "2", 
+      "Position": "1"
+},
+{
+      "Document": "3", 
+      "Position": "42"
+}
+]
+} 
+{
+    "Word": "language",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "12"
+},
+{
+      "Document": "1", 
+      "Position": "27"
+},
+{
+      "Document": "1", 
+      "Position": "20"
+},
+{
+      "Document": "3", 
+      "Position": "27"
+},
+{
+      "Document": "3", 
+      "Position": "20"
+},
+{
+      "Document": "3", 
+      "Position": "12"
+}
+]
+}, 
+{
+    "Word": "let",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "30"
+},
+{
+      "Document": "3", 
+      "Position": "30"
+}
+]
+}, 
+{
+    "Word": "losing",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "35"
+},
+{
+      "Document": "3", 
+      "Position": "35"
+}
+]
+}, 
+{
+    "Word": "lower",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "39"
+},
+{
+      "Document": "3", 
+      "Position": "39"
+}
+]
+}, 
+{
+    "Word": "level",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "40"
+},
+{
+      "Document": "3", 
+      "Position": "40"
+}
+]
+}, 
+{
+    "Word": "keywords",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "57"
+}
+]
+} 
+{
+    "Word": "idioms",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "8"
+},
+{
+      "Document": "3", 
+      "Position": "8"
+}
+]
+}, 
+{
+    "Word": "in",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "18"
+},
+{
+      "Document": "1", 
+      "Position": "59"
+},
+{
+      "Document": "3", 
+      "Position": "18"
+}
+]
+}, 
+{
+    "Word": "is",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "48"
+}
+]
+}, 
+{
+    "Word": "elegance",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "5"
+},
+{
+      "Document": "3", 
+      "Position": "5"
+}
+]
+}, 
+{
+    "Word": "fun",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "15"
+},
+{
+      "Document": "3", 
+      "Position": "15"
+}
+]
+}, 
+{
+    "Word": "functions",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "60"
+}
+]
+} 
+{
+    "Word": "and",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "6"
+},
+{
+      "Document": "1", 
+      "Position": "61"
+},
+{
+      "Document": "1", 
+      "Position": "14"
+},
+{
+      "Document": "3", 
+      "Position": "14"
+},
+{
+      "Document": "3", 
+      "Position": "6"
+}
+]
+}, 
+{
+    "Word": "code",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "17"
+},
+{
+      "Document": "3", 
+      "Position": "17"
+}
+]
+}, 
+{
+    "Word": "designers",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "21"
+},
+{
+      "Document": "3", 
+      "Position": "21"
+}
+]
+}, 
+{
+    "Word": "create",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "25"
+},
+{
+      "Document": "3", 
+      "Position": "25"
+}
+]
+}, 
+{
+    "Word": "constructs",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "42"
+}
+]
+}, 
+{
+    "Word": "comprehensive",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "67"
+}
+]
+} 
+{
+    "Word": "be",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "32"
+},
+{
+      "Document": "3", 
+      "Position": "32"
+}
+]
+}, 
+{
+    "Word": "built",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "58"
+}
+]
+}, 
+{
+    "Word": "balance",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "46"
+}
+]
+}, 
+{
+    "Word": "a",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "26"
+},
+{
+      "Document": "1", 
+      "Position": "66"
+},
+{
+      "Document": "1", 
+      "Position": "53"
+},
+{
+      "Document": "3", 
+      "Position": "26"
+}
+]
+}, 
+{
+    "Word": "access",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "36"
+},
+{
+      "Document": "3", 
+      "Position": "36"
+}
+]
+}, 
+{
+    "Word": "achieved",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "49"
+}
+]
+}, 
+{
+    "Word": "also",
+ "Info": [
+{
+      "Document": "1", 
+      "Position": "64"
+}
+]
+}, 
+{
+    "Word": "aceval",
+ "Info": [
+{
+      "Document": "2", 
+      "Position": "2"
+}
+]
+} 
+
 ]

@@ -103,7 +103,7 @@ int isValidCharacter(char character) {
     return IsCharAlpha(character) || IsCharAlphaNumeric(character);
 }
 
-//* Read the file dictionary.bin & save into tree
+//* Read the file dictionary.bin & save the data collected in the tree
 TreeInfo readDictionary(Tree **tree) {
 
     char dir[30];
@@ -136,6 +136,7 @@ TreeInfo readDictionary(Tree **tree) {
     return treeInfo;
 }
 
+//* Check if the document exists
 int documentExists(int documentID[], int newID, int size) {
 
     for (int i = 0; i < size; i++) {

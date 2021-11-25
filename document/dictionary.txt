@@ -1,0 +1,381 @@
+              go
+
+ Document : 1     Position : 1 
+ Document : 1     Position : 69 
+ Document : 1     Position : 63 
+ Document : 1     Position : 51 
+ Document : 1     Position : 50 
+ Document : 1     Position : 47 
+ Document : 2     Position : 5 
+ Document : 3     Position : 1 
+
+ --------------------------------- 
+
+              has
+
+ Document : 1     Position : 2 
+ Document : 3     Position : 2 
+
+ --------------------------------- 
+
+              its
+
+ Document : 1     Position : 3 
+ Document : 3     Position : 3 
+
+ --------------------------------- 
+
+              own
+
+ Document : 1     Position : 4 
+ Document : 3     Position : 4 
+
+ --------------------------------- 
+
+          programming
+
+ Document : 1     Position : 7 
+ Document : 1     Position : 41 
+ Document : 3     Position : 41 
+ Document : 3     Position : 7 
+
+ --------------------------------- 
+
+             that
+
+ Document : 1     Position : 9 
+ Document : 1     Position : 28 
+ Document : 3     Position : 28 
+ Document : 3     Position : 9 
+
+ --------------------------------- 
+
+              the
+
+ Document : 1     Position : 11 
+ Document : 1     Position : 38 
+ Document : 1     Position : 19 
+ Document : 3     Position : 38 
+ Document : 3     Position : 19 
+ Document : 3     Position : 11 
+
+ --------------------------------- 
+
+              to
+
+ Document : 1     Position : 16 
+ Document : 1     Position : 37 
+ Document : 1     Position : 24 
+ Document : 3     Position : 37 
+ Document : 3     Position : 24 
+ Document : 3     Position : 16 
+
+ --------------------------------- 
+
+             would
+
+ Document : 1     Position : 29 
+ Document : 3     Position : 29 
+
+ --------------------------------- 
+
+            without
+
+ Document : 1     Position : 34 
+ Document : 3     Position : 34 
+
+ --------------------------------- 
+
+             world
+
+ Document : 2     Position : 3 
+
+ --------------------------------- 
+
+             today
+
+ Document : 2     Position : 4 
+
+ --------------------------------- 
+
+             them
+
+ Document : 1     Position : 31 
+ Document : 3     Position : 31 
+
+ --------------------------------- 
+
+             they
+
+ Document : 1     Position : 43 
+
+ --------------------------------- 
+
+             this
+
+ Document : 1     Position : 45 
+
+ --------------------------------- 
+
+            through
+
+ Document : 1     Position : 52 
+
+ --------------------------------- 
+
+              set
+
+ Document : 1     Position : 22 
+ Document : 1     Position : 55 
+ Document : 3     Position : 22 
+
+ --------------------------------- 
+
+            syntax
+
+ Document : 1     Position : 62 
+
+ --------------------------------- 
+
+           standard
+
+ Document : 1     Position : 68 
+
+ --------------------------------- 
+
+           provides
+
+ Document : 1     Position : 65 
+
+ --------------------------------- 
+
+          productive
+
+ Document : 1     Position : 13 
+ Document : 1     Position : 33 
+ Document : 3     Position : 33 
+ Document : 3     Position : 13 
+
+ --------------------------------- 
+
+             make
+
+ Document : 1     Position : 10 
+ Document : 3     Position : 10 
+
+ --------------------------------- 
+
+              out
+
+ Document : 1     Position : 23 
+ Document : 3     Position : 23 
+
+ --------------------------------- 
+
+            needed
+
+ Document : 1     Position : 44 
+
+ --------------------------------- 
+
+              of
+
+ Document : 1     Position : 56 
+
+ --------------------------------- 
+
+           minimized
+
+ Document : 1     Position : 54 
+
+ --------------------------------- 
+
+            matias
+
+ Document : 2     Position : 1 
+ Document : 3     Position : 42 
+
+ --------------------------------- 
+
+           language
+
+ Document : 1     Position : 12 
+ Document : 1     Position : 27 
+ Document : 1     Position : 20 
+ Document : 3     Position : 27 
+ Document : 3     Position : 20 
+ Document : 3     Position : 12 
+
+ --------------------------------- 
+
+              let
+
+ Document : 1     Position : 30 
+ Document : 3     Position : 30 
+
+ --------------------------------- 
+
+            losing
+
+ Document : 1     Position : 35 
+ Document : 3     Position : 35 
+
+ --------------------------------- 
+
+             lower
+
+ Document : 1     Position : 39 
+ Document : 3     Position : 39 
+
+ --------------------------------- 
+
+             level
+
+ Document : 1     Position : 40 
+ Document : 3     Position : 40 
+
+ --------------------------------- 
+
+           keywords
+
+ Document : 1     Position : 57 
+
+ --------------------------------- 
+
+            idioms
+
+ Document : 1     Position : 8 
+ Document : 3     Position : 8 
+
+ --------------------------------- 
+
+              in
+
+ Document : 1     Position : 18 
+ Document : 1     Position : 59 
+ Document : 3     Position : 18 
+
+ --------------------------------- 
+
+              is
+
+ Document : 1     Position : 48 
+
+ --------------------------------- 
+
+           elegance
+
+ Document : 1     Position : 5 
+ Document : 3     Position : 5 
+
+ --------------------------------- 
+
+              fun
+
+ Document : 1     Position : 15 
+ Document : 3     Position : 15 
+
+ --------------------------------- 
+
+           functions
+
+ Document : 1     Position : 60 
+
+ --------------------------------- 
+
+              and
+
+ Document : 1     Position : 6 
+ Document : 1     Position : 61 
+ Document : 1     Position : 14 
+ Document : 3     Position : 14 
+ Document : 3     Position : 6 
+
+ --------------------------------- 
+
+             code
+
+ Document : 1     Position : 17 
+ Document : 3     Position : 17 
+
+ --------------------------------- 
+
+           designers
+
+ Document : 1     Position : 21 
+ Document : 3     Position : 21 
+
+ --------------------------------- 
+
+            create
+
+ Document : 1     Position : 25 
+ Document : 3     Position : 25 
+
+ --------------------------------- 
+
+          constructs
+
+ Document : 1     Position : 42 
+
+ --------------------------------- 
+
+         comprehensive
+
+ Document : 1     Position : 67 
+
+ --------------------------------- 
+
+              be
+
+ Document : 1     Position : 32 
+ Document : 3     Position : 32 
+
+ --------------------------------- 
+
+             built
+
+ Document : 1     Position : 58 
+
+ --------------------------------- 
+
+            balance
+
+ Document : 1     Position : 46 
+
+ --------------------------------- 
+
+               a
+
+ Document : 1     Position : 26 
+ Document : 1     Position : 66 
+ Document : 1     Position : 53 
+ Document : 3     Position : 26 
+
+ --------------------------------- 
+
+            access
+
+ Document : 1     Position : 36 
+ Document : 3     Position : 36 
+
+ --------------------------------- 
+
+           achieved
+
+ Document : 1     Position : 49 
+
+ --------------------------------- 
+
+             also
+
+ Document : 1     Position : 64 
+
+ --------------------------------- 
+
+            aceval
+
+ Document : 2     Position : 2 
+
+ --------------------------------- 
+

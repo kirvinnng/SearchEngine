@@ -4,6 +4,7 @@
 #include <stdbool.h>
 
 #include "main.h"
+
 enum Colors {
     BLACK,
     BLUE,
@@ -23,17 +24,19 @@ enum Colors {
     WHITE
 };
 
+int userChoice(Tree *tree, TreeInfo treeInfo);
+int selectMenuOption();
+void menu();
+
 void viewOnlyWords(Tree *tree);
-void showTree(Tree *tree);
+void showTree(Tree *tree, int x, int y);
 void showTreeWithoutWord(Tree *tree);
 void showNodeList(Node *list);
 
-void menu();
-int selectMenuOption();
-void toLowerCase(char *str);
 int didYouMean(Tree *tree, char *word);
+int choiceDocument(TreeInfo treeInfo, int _x, int _y, int numDoc);
 
-void verifyError(void *arg,char *fileName, const int line);
+void verifyError(void *arg, char *fileName, const int line);
 void gotoxy(int x, int y);
 void setColor(int value);
 void setWindow(int width, int height, int widthBuffer, int heightBuffer);
