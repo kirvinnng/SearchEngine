@@ -1,2 +1,33 @@
-# SearchEngine
-Search Engine for words and numbers in documents
+
+# Motor De Busqueda
+
+**Trabajo Final del segundo cuatrimestre de Programacion UTN**
+
+## _Contribuidores_
+* Kevin Reyna
+* Matias Aceval 
+* Lisandro Bidegain
+
+## Compilar
+
+### Para compilar, agregamos la siguiente línea a `settings.json` de VSCode.
+```json
+"cd $dir && gcc *.c -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe"
+```
+
+## Explicacion General de los Archivos 
+
+**Logica interna del programa con el uso de arboles y listas + Algoritmo de levenshtein** 
+```algorithm.c```
+
+**Creacion del diccionario en distintas extensiones** 
+```create_file.c```
+
+**Procesamiento de los archivos en la base de datos + la lectura del diccionario** 
+```read_file.c```
+
+**Funciones interactivas con las operaciones del usuario** 
+```operations.c```
+
+**Funciones de la interfaz del usuario + Otras utilidades** 
+```gui.c```
