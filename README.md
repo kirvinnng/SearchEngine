@@ -1,5 +1,5 @@
 
-# Motor De Busqueda
+# Motor De Busqueda <img align="center" alt="Fer-C" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
 
 **Trabajo Final del segundo cuatrimestre de Programacion UTN**
 
