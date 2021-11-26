@@ -6,25 +6,10 @@
 ## _Contributors_
 
 * Kevin Reyna
-  <a href="https://github.com/kirvinnng">
-    <img align="left" alt="kirvinnng Github" width="22px"
-      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
-  </a>
-  
-  <br/>
 * Matias Aceval 
- <a href="https://github.com/matiasaceval">
-    <img align="left" alt="matiasaceval Github" width="22px"
-      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
-  </a>
-  <br/>
-  
 * Lisandro Bidegain
-  <a href="https://github.com/lich03">
-    <img align="left" alt="lich03 Github" width="22px"
-      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
-  </a>
-<br />
+
+
 ## Compile
 
 ### To compile, we add the following line to `settings.json` in Visual Studio Code
@@ -58,22 +43,8 @@
 ## _Contribuidores_
 
 * Kevin Reyna
-  <a href="https://github.com/kirvinnng">
-    <img align="left" alt="kirvinnng Github" width="22px"
-      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
-  </a>
-  
 * Matias Aceval 
- <a href="https://github.com/matiasaceval">
-    <img align="left" alt="matiasaceval Github" width="22px"
-      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
-  </a>
-  
 * Lisandro Bidegain
-  <a href="https://github.com/lich03">
-    <img align="left" alt="lich03 Github" width="22px"
-      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
-  </a>
 
 
 ## Compilacion
