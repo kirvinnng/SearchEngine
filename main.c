@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
     TreeInfo treeInfo = readDictionary(&treeDic);
 
     //* 'switch' with the user options 😎
-    userChoice(treeDic, treeInfo);
+     userChoice(treeDic, treeInfo);
 
     return 0;
 }
