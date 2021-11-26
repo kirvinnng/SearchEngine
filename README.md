@@ -4,10 +4,26 @@
 **Final project of the second four-month period UTN**
 
 ## _Contributors_
+<p>
 * Kevin Reyna
+  </a>
+  <a href="https://github.com/kirvinnng">
+    <img align="left" alt="kirvinnng Github" width="22px"
+      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+  </a>
+  
 * Matias Aceval 
+* <a href="https://github.com/matiasaceval">
+    <img align="left" alt="matiasaceval Github" width="22px"
+      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+  </a>
+  
 * Lisandro Bidegain
-
+  <a href="https://github.com/lich03">
+    <img align="left" alt="lich03 Github" width="22px"
+      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+  </a>
+</p>
 ## Compile
 
 ### To compile, we add the following line to `settings.json` in Visual Studio Code
@@ -32,16 +48,33 @@
 **User interface functions + Other utilities** 
 
 
-
+<br /><br />
 
 # Motor De Busqueda <img align="center" alt="Fer-C" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
 
 **Trabajo Final del segundo cuatrimestre de Programacion UTN**
 
 ## _Contribuidores_
+<p>
 * Kevin Reyna
+  </a>
+  <a href="https://github.com/kirvinnng">
+    <img align="left" alt="kirvinnng Github" width="22px"
+      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+  </a>
+  
 * Matias Aceval 
+* <a href="https://github.com/matiasaceval">
+    <img align="left" alt="matiasaceval Github" width="22px"
+      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+  </a>
+  
 * Lisandro Bidegain
+  <a href="https://github.com/lich03">
+    <img align="left" alt="lich03 Github" width="22px"
+      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+  </a>
+</p>
 
 ## Compilacion
 
