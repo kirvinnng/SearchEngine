@@ -45,7 +45,7 @@ int userChoice(Tree *tree, TreeInfo treeInfo) {
             default:
                 return 0;
         }
-
+        drawEnter(60, 23);
         gotoxy(0, 0);
         system("pause > nul");
         system("cls");
@@ -63,7 +63,9 @@ int selectMenuOption() {
 
     do {
         enter = false;
-        keyMovement(68, 21);
+
+        keyMovement(60, 21);
+        drawEnter(80, 24);
 
         menu(x, y);
 
@@ -131,9 +133,9 @@ void viewOnlyWords(Tree *tree) {
 void showTree(Tree *tree, int _x, int _y) {
     if (tree) {
         gotoxy(_x, _y);
-        printf(" Palabra   : '%s'     ", tree->word);
+        printf("Palabra   : '%s'     ", tree->word);
         gotoxy(_x, _y);
-        printf(" Nodos     :  %d      ", tree->length);
+        printf("Nodos     :  %d      ", tree->length);
         showNodeList(tree->list);
         showTree(tree->left, _x, _y);
         showTree(tree->right, _x, _y);
@@ -149,8 +151,8 @@ void showTreeWithoutWord(Tree *tree) {
 }
 
 void showNodeList(Node *list) {
-    int _x = x;
-    int _y = y + 10;
+    int _x = 120;
+    int _y = 5;
     gotoxy(_x, _y);
 
     while (list) {
@@ -165,8 +167,6 @@ void showNodeList(Node *list) {
         _y += 3;
     }
     setColor(WHITE);
-    gotoxy(_x, _y - 1);
-    printf(" ___________________________________________");
 }
 
 int choiceDocument(TreeInfo treeInfo, int _x, int _y, int numDoc) {
@@ -187,13 +187,13 @@ int choiceDocument(TreeInfo treeInfo, int _x, int _y, int numDoc) {
         if (id < 1 || id > treeInfo.allDocument) {
             gotoxy(_x, _y + 1);
             printf(" ID INVALIDO \n\n");
-            gotoxy(_x + 14, _y);
-            printf("                           ");
+
+            cleanLineHori(_x + 14, _y, 28);
         }
     } while (id < 1 || id > treeInfo.allDocument);
     gotoxy(_x, _y + 1);
 
-    printf("               ");
+    cleanLineHori(_x, _y + 1, 16);
 
     return id;
 }
@@ -202,6 +202,23 @@ void inputSign(int valueColor) {
     setColor(valueColor);
     printf("> ");
     setColor(WHITE);
+}
+
+void cleanLineVert(int _x, int _y, int size) {
+
+    for (int i = 0; i < size; i++) {
+        gotoxy(_x, _y + i);
+        printf("                   ");
+    }
+}
+
+void cleanLineHori(int _x, int _y, int size) {
+
+    for (int i = 0; i < size; i++) {
+
+        gotoxy(x + i, _y);
+        printf(" ");
+    }
 }
 
 int didYouMean(Tree *tree, char *word) {
@@ -246,7 +263,7 @@ void keyMovement(const int _x, const int _y) {
     setColor(LIGHTCYAN);
     gotoxy(_x + 8, _y + 1);
     printf("%c", UP);
-    setColor(GREY);
+    setColor(WHITE);
     gotoxy(_x + 10, _y + 1);
     printf("||");
     gotoxy(_x + 6, _y + 2);
@@ -258,29 +275,45 @@ void keyMovement(const int _x, const int _y) {
     setColor(LIGHTCYAN);
 
     gotoxy(_x + 3, _y + 4);
-    // printf("%c", ESC); //! ----X----
-    printf("<-");
-    setColor(GREY);
+    printf("%c", 17); //! ----X----
+    // printf("<-");
+    setColor(WHITE);
     gotoxy(_x + 5, _y + 4);
     printf("|||");
     setColor(LIGHTCYAN);
     gotoxy(_x + 8, _y + 4);
     printf("%c", DOWN);
-    setColor(GREY);
+    setColor(WHITE);
     gotoxy(_x + 10, _y + 4);
     printf("|||");
     setColor(LIGHTCYAN);
     // gotoxy(_x + 14, _y + 4);
     // printf("%c", RIGHT);
     gotoxy(_x + 13, _y + 4);
-    printf("->");
-    setColor(GREY);
+    printf("%c", 16);
+    setColor(WHITE);
     gotoxy(_x + 15, _y + 4);
     printf("||");
     gotoxy(_x + 1, _y + 5);
     printf("||__|||__|||__||");
     gotoxy(_x + 1, _y + 6);
     printf("|/__\\|/__\\|/__\\|");
+}
+
+void drawEnter(const int _x, const int _y) {
+
+    gotoxy(_x, _y);
+    printf(" ___________");
+    gotoxy(_x, _y + 1);
+    printf("||  ");
+    setColor(LIGHTCYAN);
+    printf("Enter  ");
+    setColor(WHITE);
+    printf("||");
+    gotoxy(_x, _y + 2);
+    printf("||_________||");
+    gotoxy(_x, _y + 3);
+    printf("|/_________\\|");
 }
 
 void verifyError(void *arg, char *fileName, const int line) {

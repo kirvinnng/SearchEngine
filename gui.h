@@ -29,6 +29,7 @@ int selectMenuOption();
 void menu();
 void keyMovement(const int _x, const int _y);
 void inputSign(int valueColor);
+void drawEnter(const int _x, const int _y);
 
 void viewOnlyWords(Tree *tree);
 void showTree(Tree *tree, int x, int y);
@@ -42,3 +43,6 @@ void verifyError(void *arg, char *fileName, const int line);
 void gotoxy(int x, int y);
 void setColor(int value);
 void setWindow(int width, int height, int widthBuffer, int heightBuffer);
+
+void cleanLineHori(int _x, int _y, int size);
+void cleanLineVert(int _x, int _y, int size);

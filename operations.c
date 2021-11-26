@@ -37,7 +37,10 @@ void operation1(Tree *tree, TreeInfo treeInfo) {
         printf(" Se encontro el termino '%s' en el documento Nro. %d.\n", word, id);
         gotoxy(x, y + 8);
         setColor(WHITE);
-        printf(" ___________________________________________");
+
+        gotoxy(120, 1);
+
+        printf(" Coincidencias ");
         showTreeWithoutWord(auxID);
     } else if (!auxID) {
         gotoxy(x, y + 5);
@@ -57,7 +60,7 @@ void operation2(Tree *tree, TreeInfo treeInfo) {
     gotoxy(x, y + 1);
     printf(" Palabra  ", COM);
     inputSign(LIGHTCYAN);
-    // inputSign(LIGHTCYAN);
+
     fflush(stdin);
     scanf("%s", word);
     toLowerCase(word);
@@ -75,7 +78,30 @@ void operation2(Tree *tree, TreeInfo treeInfo) {
     if (auxID1 && auxID2) {
         gotoxy(x, y + 6);
         printf(" Se encontro el termino '%s' tanto en el documento Nro. %d como en el Nro. %d", word, id1, id2);
+        gotoxy(x, y + 8);
+
+        printf(" Documento ");
+        inputSign(LIGHTCYAN);
+        printf(" %d ", id1);
+        gotoxy(x, y + 9);
+        printf(" _______________");
+        drawEnter(60, 23);
+
+        gotoxy(120, 2);
+
+        printf(" Primer Documento ");
         showTreeWithoutWord(auxID1);
+        system("pause > nul");
+        cleanLineVert(119, 3, 60);
+        gotoxy(x, y + 8);
+        printf(" Documento ", id2);
+        inputSign(LIGHTCYAN);
+        printf(" %d ", id2);
+        gotoxy(x, y + 9);
+        printf(" _______________");
+
+        gotoxy(120, 2);
+        printf(" Segundo Documento ");
         showTreeWithoutWord(auxID2);
 
     } else {
@@ -112,11 +138,13 @@ void operation3(Tree *tree, TreeInfo treeInfo) {
     if (auxID1) {
         gotoxy(x, y + 5);
         setColor(WHITE);
-        printf(" ___________________________________________");
-        gotoxy(x + 1, y + 7);
-        printf(" Palabra  : %s ", word);
-        gotoxy(x + 1, y + 8);
-        printf(" Nodos    : %d ", auxID1->length);
+        gotoxy(120, 0);
+
+        printf(" Coincidencias ");
+        gotoxy(122, 2);
+        printf("Palabra  : %s ", word);
+        gotoxy(122, 3);
+        printf("Nodos    : %d ", auxID1->length);
         showTreeWithoutWord(auxID1);
     } else {
         gotoxy(x, y + 5);
