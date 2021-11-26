@@ -6,7 +6,6 @@
 ## _Contributors_
 <p>
 * Kevin Reyna
-  </a>
   <a href="https://github.com/kirvinnng">
     <img align="left" alt="kirvinnng Github" width="22px"
       src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
@@ -57,14 +56,13 @@
 ## _Contribuidores_
 <p>
 * Kevin Reyna
-  </a>
   <a href="https://github.com/kirvinnng">
     <img align="left" alt="kirvinnng Github" width="22px"
       src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
   </a>
   
 * Matias Aceval 
-* <a href="https://github.com/matiasaceval">
+ <a href="https://github.com/matiasaceval">
     <img align="left" alt="matiasaceval Github" width="22px"
       src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
   </a>
