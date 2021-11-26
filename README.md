@@ -22,7 +22,7 @@
 **Internal program logic using trees and LinkedList + levenshtein algorithm**
 
 ```create_file.c```
-**Creacion del diccionario en distintas extensiones** 
+**Creation of the dictionary in different extensions** 
 
 ```read_file.c```
 **Processing of database files + dictionary reading** 
