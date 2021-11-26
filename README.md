@@ -8,7 +8,7 @@
 * Matias Aceval 
 * Lisandro Bidegain
 
-## Compilar
+## Compilacion
 
 ### Para compilar, agregamos la siguiente línea a `settings.json` de VSCode.
 ```json
@@ -16,18 +16,18 @@
 ```
 
 ## Explicacion General de los Archivos 
-
-**Logica interna del programa con el uso de arboles y listas + Algoritmo de levenshtein** 
 ```algorithm.c```
+**Logica interna del programa con el uso de arboles y listas + Algoritmo de levenshtein** 
 
-**Creacion del diccionario en distintas extensiones** 
 ```create_file.c```
+**Creacion del diccionario en distintas extensiones** 
 
-**Procesamiento de los archivos en la base de datos + la lectura del diccionario** 
 ```read_file.c```
+**Procesamiento de los archivos en la base de datos + la lectura del diccionario** 
 
-**Funciones interactivas con las operaciones del usuario** 
 ```operations.c```
+**Funciones interactivas con las operaciones del usuario** 
 
-**Funciones de la interfaz del usuario + Otras utilidades** 
 ```gui.c```
+**Funciones de la interfaz del usuario + Otras utilidades** 
+
