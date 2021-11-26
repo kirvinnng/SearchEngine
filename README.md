@@ -10,13 +10,15 @@
     <img align="left" alt="kirvinnng Github" width="22px"
       src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
   </a>
-  <br />
+  
+  <br/>
 * Matias Aceval 
  <a href="https://github.com/matiasaceval">
     <img align="left" alt="matiasaceval Github" width="22px"
       src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
   </a>
-  <br />
+  <br/>
+  
 * Lisandro Bidegain
   <a href="https://github.com/lich03">
     <img align="left" alt="lich03 Github" width="22px"
