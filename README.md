@@ -131,7 +131,7 @@ void keyMovement(const int _x, const int _y);
 
 ## Explicacion General de los Archivos 
 [```algorithm.c```](https://github.com/kirvinnng/SearchEngine/blob/main/algorithm.c)
-**Internal program logic using trees and LinkedList + levenshtein algorithm**
+**Lógica interna del programa con árboles y listas + Algoritmo Levenshtein**
 
 ```c
 // Obtener una posición en la lista
@@ -163,7 +163,7 @@ WordSimilarity _didYouMean(Tree *tree, char *word);
 ```
 
 [```create_file.c```](https://github.com/kirvinnng/SearchEngine/blob/main/create_file.c)
-**Creation of the dictionary in different extensions** 
+**Creación del diccionario en diferentes extensiones** 
 ```c
 void createJSON(Tree *tree);
 void createHTML(Tree *tree);
@@ -179,7 +179,7 @@ void listToFile(Node *list, char *word, FILE *buff, char *extensionFile, Tree *t
 ```
 
 [```read_file.c```](https://github.com/kirvinnng/SearchEngine/blob/main/read_file.c)
-**Processing of database files + dictionary reading** 
+**Procesamiento de los archivos de la base de datos + lectura del diccionario** 
 ```c
 // Lee todos los archivos de la base de datos
 void readAllFiles(Tree **tree);
@@ -201,7 +201,7 @@ TreeInfo readDictionary(Tree **tree);
 ```
 
 [```operations.c```](https://github.com/kirvinnng/SearchEngine/blob/main/operations.c)
-**Interactive functions with user operations** 
+**Funciones interactivas con las operaciones del usuario** 
 ```c
 void operation1(Tree *tree, TreeInfo treeInfo);
 void operation2(Tree *tree, TreeInfo treeInfo);
@@ -211,7 +211,7 @@ void operation5(Tree *tree, TreeInfo treeInfo);
 void openHTML(Tree *tree);
 ```
 [```gui.c```](https://github.com/kirvinnng/SearchEngine/blob/main/gui.c)
-**User interface functions + Other utilities** 
+**Funciones de la interfaz de usuario + Otras utilidades** 
 ```c
 int didYouMean(Tree *tree, char *word);
 int userChoice(Tree *tree, TreeInfo treeInfo);
